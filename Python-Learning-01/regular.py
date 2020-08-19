@@ -1,5 +1,6 @@
 '''
  Python Regular Package;
+ Python Regular Expression Examples
 '''
 import re;
 
@@ -35,4 +36,4 @@ matches = pattern.finditer(text_to_search);
 for match in matches:
     print(match)
 
-print(text_to_search[1:4])
+#print(text_to_search[1:4])
