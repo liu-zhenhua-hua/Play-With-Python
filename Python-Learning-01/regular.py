@@ -30,10 +30,13 @@ sentence = 'Start a sentence and then bring it to an end'
 
 #print(r'\tTab');
 
-pattern = re.compile(r'abc');
-matches = pattern.finditer(text_to_search);
+#pattern = re.compile(r'abc');
+#pattern = re.compile(r'\.') #just search the '.' please use \. escape the dot
+pattern = re.compile(r'coreyms\.com')
 
+matches = pattern.finditer(text_to_search)
 for match in matches:
     print(match)
 
 #print(text_to_search[1:4])
+print(text_to_search[142:153])
