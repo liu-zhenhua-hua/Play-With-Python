@@ -7,5 +7,21 @@
     \w      - Word Character (a-z, A-Z,0-9,_)
     \W      - Not a Word Character.
     \s      - WhiteSpace (space, tab, newline)
-    \S      - Not
+    \S      - Not Whitespace(space, tab, newline)
+
+    \b      - Word Boundary
+    \B      - Not a Word Boundary
+    ^       - Beginning of a String
+    $       - End of a String
+
+
+
+
+
+
+
+
+
+
+
 '''
