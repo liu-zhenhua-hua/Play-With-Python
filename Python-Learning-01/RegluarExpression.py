@@ -7,5 +7,5 @@
     \w      - Word Character (a-z, A-Z,0-9,_)
     \W      - Not a Word Character.
     \s      - WhiteSpace (space, tab, newline)
-    \S      - Not  
+    \S      - Not
 '''

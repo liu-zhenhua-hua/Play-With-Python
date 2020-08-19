@@ -11,6 +11,8 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 
 Ha HaHa
 
+lalida_mail@gmail.com
+
 MetaCharacters (Need to be escaped):
 . ^ $ * + ? { } [ ] \ | ( )
 
@@ -33,8 +35,8 @@ sentence = 'Start a sentence and then bring it to an end'
 #pattern = re.compile(r'abc');
 #pattern = re.compile(r'\.') #just search the '.' please use \. escape the dot
 #pattern = re.compile(r'coreyms\.com')
-pattern = re.compile(r'\d') #Matching all digit in text_to_search
-
+#pattern = re.compile(r'\d') #Matching all digit in text_to_search
+pattern = re.compile(r'\w') #Word Character (a-z, A-Z,0-9,_)
 matches = pattern.finditer(text_to_search)
 for match in matches:
     print(match)
