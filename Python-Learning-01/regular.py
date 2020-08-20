@@ -36,6 +36,13 @@ bat
 
 sentence = 'Start a sentence and then bring it to an end'
 
+my_email_address = '''
+CoreyMSchafer@gmail.com
+corey.schafer@university.edu
+corey-321-schafer@my-work.net
+'''
+
+
 #print(r'\tTab');
 
 #pattern = re.compile(r'abc');
@@ -52,11 +59,13 @@ sentence = 'Start a sentence and then bring it to an end'
 
 #pattern = re.compile(r'[a-z]') #Character Range from a-z lower case, or [a-zA-Z] lower case and Capital case
 #pattern = re.compile(r'[^a-zA-Z]') #Characters Not In Brackets
-pattern = re.compile(r'[^b]at') #Three Characters we want to search, not start with 'b'
+#pattern = re.compile(r'[^b]at') #Three Characters we want to search, not start with 'b'
+#pattern = re.compile(r'(Mr|Ms|Mrs)\.?\s[A-Z]\w*') #Try to practice this Regular Expression
 
-pattern = re.compile(r'(Mr|Ms|Mrs)\.?\s[A-Z]\w*') #Try to practice this Regular Expression
-
-matches = pattern.finditer(text_to_search)
+pattern = re.compile(r'[a-zA-Z]+@[a-zA-Z]+\.com')
+pattern = re.compile(r'[a-zA-Z.]+@[a-zA-Z]+\.(com|edu)')
+pattern = re.compile(r'[a-zA-Z0-9.-]+@[a-zA-Z-]+\.(com|edu|net)')
+matches = pattern.finditer(my_email_address) #text_to_search
 for match in matches:
     print(match)
 
