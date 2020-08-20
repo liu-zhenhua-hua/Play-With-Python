@@ -65,6 +65,9 @@ corey-321-schafer@my-work.net
 pattern = re.compile(r'[a-zA-Z]+@[a-zA-Z]+\.com')
 pattern = re.compile(r'[a-zA-Z.]+@[a-zA-Z]+\.(com|edu)')
 pattern = re.compile(r'[a-zA-Z0-9.-]+@[a-zA-Z-]+\.(com|edu|net)')
+
+
+pattern = re.compile(r'[a-zA-Z0-9_.+-]+@')
 matches = pattern.finditer(my_email_address) #text_to_search
 for match in matches:
     print(match)
