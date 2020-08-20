@@ -36,6 +36,8 @@ bat
 
 sentence = 'Start a sentence and then bring it to an end'
 
+email_address = ''' atomic_tony@169.com '''
+
 my_email_address = '''
 CoreyMSchafer@gmail.com
 corey.schafer@university.edu
