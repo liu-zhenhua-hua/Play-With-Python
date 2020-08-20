@@ -54,7 +54,7 @@ sentence = 'Start a sentence and then bring it to an end'
 #pattern = re.compile(r'[^a-zA-Z]') #Characters Not In Brackets
 pattern = re.compile(r'[^b]at') #Three Characters we want to search, not start with 'b'
 
-pattern = re.compile(r'(Mr|Ms|Mrs)\.?\s[A-Z]\w*')
+pattern = re.compile(r'(Mr|Ms|Mrs)\.?\s[A-Z]\w*') #Try to practice this Regular Expression
 
 matches = pattern.finditer(text_to_search)
 for match in matches:
