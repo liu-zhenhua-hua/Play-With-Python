@@ -42,7 +42,7 @@ sentence = 'Start a sentence and then bring it to an end'
 #pattern = re.compile(r'\BHa') #Not a Word Boundary
 #pattern = re.compile(r'^Start') #Begining of a String
 
-pattern = re.compile(r'\d\d\d.\d\d\d.\d\d\d\d') #fetching Phone Number in text_to_search
+#pattern = re.compile(r'\d\d\d.\d\d\d.\d\d\d\d') #fetching Phone Number in text_to_search
 
 matches = pattern.finditer(text_to_search)
 for match in matches:
