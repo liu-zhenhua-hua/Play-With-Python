@@ -17,6 +17,14 @@
     []      - Matches Character in Brackets
     [^]     - Matches Characters NOT in Brackets
     |       - Either Or
+    ( )     - Group
+
+    Quantifiers:
+    *       - 0 or More
+    +       - 1 or More
+    ?       - 0 or One
+    {3}     - Exact Number
+    {3,4}   - Range of Numbers(Min, Max)
 
 
 
