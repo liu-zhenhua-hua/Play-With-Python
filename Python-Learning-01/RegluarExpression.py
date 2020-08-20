@@ -13,7 +13,7 @@
     \B      - Not a Word Boundary
     ^       - Beginning of a String
     $       - End of a String
-    
+
     []      - Matches Character in Brackets
     [^]     - Matches Characters NOT in Brackets
     |       - Either Or

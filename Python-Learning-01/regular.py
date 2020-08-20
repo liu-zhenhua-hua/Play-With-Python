@@ -44,6 +44,8 @@ sentence = 'Start a sentence and then bring it to an end'
 
 #pattern = re.compile(r'\d\d\d.\d\d\d.\d\d\d\d') #fetching Phone Number in text_to_search
 
+pattern = re.compile(r'[a-z]')
+
 matches = pattern.finditer(text_to_search)
 for match in matches:
     print(match)
