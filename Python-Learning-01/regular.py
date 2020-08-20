@@ -26,6 +26,12 @@ Mr Smith
 Ms Davis
 Mrs. Robinson
 Mr. T
+
+cat
+mat
+pat
+bat
+
 '''
 
 sentence = 'Start a sentence and then bring it to an end'
@@ -45,7 +51,8 @@ sentence = 'Start a sentence and then bring it to an end'
 #pattern = re.compile(r'\d\d\d.\d\d\d.\d\d\d\d') #fetching Phone Number in text_to_search
 
 #pattern = re.compile(r'[a-z]') #Character Range from a-z lower case, or [a-zA-Z] lower case and Capital case
-pattern = re.compile(r'[^a-zA-Z]') #Characters Not In Brackets
+#pattern = re.compile(r'[^a-zA-Z]') #Characters Not In Brackets
+pattern = re.compile(r'[^b]at') #Three Characters we want to search, not start with 'b'
 
 matches = pattern.finditer(text_to_search)
 for match in matches:
