@@ -10,9 +10,10 @@ regular_text='''
 pattern = re.compile(r'\d{3}\.\d{3}\.\d{4}')
 pattern = re.compile(r'\d{3}\-\d{3}\-\d{4}')
 pattern = re.compile(r'abc') #Try this Regular Expression
+pattern = re.compile(r'\.') #just search the '.' please use \. escape the dot
+
 
 matches = pattern.finditer(regular_text)
 
 for match in matches:
     print(match)
-
