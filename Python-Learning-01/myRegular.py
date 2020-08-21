@@ -8,8 +8,11 @@ regular_text='''
 '''
 
 pattern = re.compile(r'\d{3}\.\d{3}\.\d{4}')
+pattern = re.compile(r'\d{3}\-\d{3}\-\d{4}')
+
 
 matches = pattern.finditer(regular_text)
 
 for match in matches:
     print(match)
+
