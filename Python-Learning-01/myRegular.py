@@ -9,7 +9,7 @@ regular_text='''
 
 pattern = re.compile(r'\d{3}\.\d{3}\.\d{4}')
 pattern = re.compile(r'\d{3}\-\d{3}\-\d{4}')
-
+pattern = re.compile(r'abc') #Try this Regular Expression
 
 matches = pattern.finditer(regular_text)
 
