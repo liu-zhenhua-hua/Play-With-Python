@@ -15,6 +15,7 @@ pattern = re.compile(r'\.') #just search the '.' please use \. escape the dot
 #pattern = re.compile(r'\w') #Word Character (a-z, A-Z,0-9,_)
 #pattern = re.compile(r'\W') #Not a Word Character.
 #pattern = re.compile(r'\bHa') #Word Boundary
+#pattern = re.compile(r'\BHa') #Not a Word Boundary
 
 
 matches = pattern.finditer(regular_text)
