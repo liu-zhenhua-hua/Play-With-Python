@@ -11,7 +11,7 @@ pattern = re.compile(r'\d{3}\.\d{3}\.\d{4}')
 pattern = re.compile(r'\d{3}\-\d{3}\-\d{4}')
 pattern = re.compile(r'abc') #Try this Regular Expression
 pattern = re.compile(r'\.') #just search the '.' please use \. escape the dot
-
+#pattern = re.compile(r'\d') #Matching all digit in text_to_search
 
 matches = pattern.finditer(regular_text)
 
