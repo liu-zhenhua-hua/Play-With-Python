@@ -18,6 +18,7 @@ pattern = re.compile(r'\.') #just search the '.' please use \. escape the dot
 #pattern = re.compile(r'\BHa') #Not a Word Boundary
 #pattern = re.compile(r'^Start') #Begining of a String
 #pattern = re.compile(r'[^cbba]')
+#pattern = re.compile(r'[ABCDEF]')
 
 
 matches = pattern.finditer(regular_text)
