@@ -1,6 +1,7 @@
 '''
  Python Regular Package;
  Python Regular Expression Examples
+ Python Regular Exp Programs, and Practices
 '''
 import re;
 
