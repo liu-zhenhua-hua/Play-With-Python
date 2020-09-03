@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09c80ce1-01ad-4fc3-9c57-bba588d577a5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/BasicApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicApp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sampleCV.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +138,7 @@
       <workItem from="1597836847022" duration="9740000" />
       <workItem from="1598253901877" duration="33000" />
       <workItem from="1598255499935" duration="8000" />
-      <workItem from="1599109234232" duration="1124000" />
+      <workItem from="1599109234232" duration="1372000" />
     </task>
     <servers />
   </component>
