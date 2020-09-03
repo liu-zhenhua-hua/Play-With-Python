@@ -38,7 +38,12 @@ print("=====================Python's List Example ======================")
 my_list = []
 ty_list = []
 
-length = len(my_list)
+my_second_list = [56,89,90,100,130]
+for i in my_second_list:
+    print(i)
 
-print("my_list's length " + str(length))
+#len() function to caculate the length of Python list
+
+print(len(my_second_list))
+
 
