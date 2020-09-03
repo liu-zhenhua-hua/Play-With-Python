@@ -24,6 +24,12 @@ target/
 *.ipr
 *.iml
 *.iws
+/.idea/
+/target/
+/.project
+/.classpath
+/.settings/
+
 
 #temp file
 *.log
