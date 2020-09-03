@@ -34,5 +34,11 @@ my_list[len(my_list):] = ["A"]
 print(my_list)
 
 my_list.remove("A") # 先查找给定值的第一个实例, 然后将该值从列表中删除
-my_list.remove("M") # M 元素在列表中不存在
+
+
+if 'M' in my_list:
+    print("The Element in the List")
+else:
+    print("We can't find out this Element in the List ")
 print(my_list)
+
