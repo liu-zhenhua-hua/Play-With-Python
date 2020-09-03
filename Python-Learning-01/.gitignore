@@ -19,12 +19,13 @@ target/
 
 
 #idea
-.idea/
+.idea
 /idea/
 *.ipr
 *.iml
 *.iws
 /.idea/
+/.idea/workspace.xml
 /target/
 /.project
 /.classpath
