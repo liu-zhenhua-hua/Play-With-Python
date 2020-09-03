@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09c80ce1-01ad-4fc3-9c57-bba588d577a5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/BasicAppAgain.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StringFirst.py" beforeDir="false" afterPath="$PROJECT_DIR$/StringFirst.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.BasicAppAgain">
+  <component name="RunManager" selected="Python.StringFirst">
     <configuration name="BasicApp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-Learning-01" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,6 +95,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="StringFirst" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-Learning-01" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StringFirst.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="myRegular" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-Learning-01" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,28 +131,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myRegular.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="regular" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python-Learning-01" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/regular.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.StringFirst" />
         <item itemvalue="Python.BasicAppAgain" />
         <item itemvalue="Python.BasicApp" />
         <item itemvalue="Python.sampleCV" />
         <item itemvalue="Python.myRegular" />
-        <item itemvalue="Python.regular" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +185,7 @@
       <workItem from="1597836847022" duration="9740000" />
       <workItem from="1598253901877" duration="33000" />
       <workItem from="1598255499935" duration="8000" />
-      <workItem from="1599109234232" duration="4607000" />
+      <workItem from="1599109234232" duration="6682000" />
     </task>
     <servers />
   </component>
@@ -209,28 +209,28 @@
       <screen x="0" y="23" width="1440" height="833" />
     </state>
     <state x="386" y="30" key="#regular/0.23.1440.833@0.23.1440.833" timestamp="1597836863492" />
-    <state width="1878" height="213" key="GridCell.Tab.0.bottom" timestamp="1599116001947">
+    <state width="1878" height="213" key="GridCell.Tab.0.bottom" timestamp="1599122312301">
       <screen x="1440" y="23" width="1920" height="1177" />
     </state>
-    <state width="1878" height="213" key="GridCell.Tab.0.bottom/0.23.1440.828/1440.23.1920.1177@1440.23.1920.1177" timestamp="1599116001947" />
+    <state width="1878" height="213" key="GridCell.Tab.0.bottom/0.23.1440.828/1440.23.1920.1177@1440.23.1920.1177" timestamp="1599122312301" />
     <state width="1398" height="238" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1598019857458" />
     <state width="1398" height="238" key="GridCell.Tab.0.bottom/0.23.1440.833@0.23.1440.833" timestamp="1598231725378" />
-    <state width="1878" height="213" key="GridCell.Tab.0.center" timestamp="1599116001947">
+    <state width="1878" height="213" key="GridCell.Tab.0.center" timestamp="1599122312300">
       <screen x="1440" y="23" width="1920" height="1177" />
     </state>
-    <state width="1878" height="213" key="GridCell.Tab.0.center/0.23.1440.828/1440.23.1920.1177@1440.23.1920.1177" timestamp="1599116001947" />
+    <state width="1878" height="213" key="GridCell.Tab.0.center/0.23.1440.828/1440.23.1920.1177@1440.23.1920.1177" timestamp="1599122312300" />
     <state width="1398" height="238" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1598019857457" />
     <state width="1398" height="238" key="GridCell.Tab.0.center/0.23.1440.833@0.23.1440.833" timestamp="1598231725377" />
-    <state width="1878" height="213" key="GridCell.Tab.0.left" timestamp="1599116001946">
+    <state width="1878" height="213" key="GridCell.Tab.0.left" timestamp="1599122312299">
       <screen x="1440" y="23" width="1920" height="1177" />
     </state>
-    <state width="1878" height="213" key="GridCell.Tab.0.left/0.23.1440.828/1440.23.1920.1177@1440.23.1920.1177" timestamp="1599116001946" />
+    <state width="1878" height="213" key="GridCell.Tab.0.left/0.23.1440.828/1440.23.1920.1177@1440.23.1920.1177" timestamp="1599122312299" />
     <state width="1398" height="238" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1598019857457" />
     <state width="1398" height="238" key="GridCell.Tab.0.left/0.23.1440.833@0.23.1440.833" timestamp="1598231725377" />
-    <state width="1878" height="213" key="GridCell.Tab.0.right" timestamp="1599116001947">
+    <state width="1878" height="213" key="GridCell.Tab.0.right" timestamp="1599122312300">
       <screen x="1440" y="23" width="1920" height="1177" />
     </state>
-    <state width="1878" height="213" key="GridCell.Tab.0.right/0.23.1440.828/1440.23.1920.1177@1440.23.1920.1177" timestamp="1599116001947" />
+    <state width="1878" height="213" key="GridCell.Tab.0.right/0.23.1440.828/1440.23.1920.1177@1440.23.1920.1177" timestamp="1599122312300" />
     <state width="1398" height="238" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1598019857458" />
     <state width="1398" height="238" key="GridCell.Tab.0.right/0.23.1440.833@0.23.1440.833" timestamp="1598231725377" />
     <state x="1716" y="77" key="SettingsEditor" timestamp="1599112599720">
@@ -242,8 +242,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python_Learning_01$sampleCV.coverage" NAME="sampleCV Coverage Results" MODIFIED="1599112168397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Learning_01$regular.coverage" NAME="regular Coverage Results" MODIFIED="1597908961287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_Learning_01$BasicAppAgain.coverage" NAME="BasicAppAgain Coverage Results" MODIFIED="1599116001936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Learning_01$BasicAppAgain.coverage" NAME="BasicAppAgain Coverage Results" MODIFIED="1599116637507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Learning_01$myRegular.coverage" NAME="myRegular Coverage Results" MODIFIED="1598019857449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Learning_01$BasicApp.coverage" NAME="BasicApp Coverage Results" MODIFIED="1599115044501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Learning_01$StringFirst.coverage" NAME="StringFirst Coverage Results" MODIFIED="1599122305928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
