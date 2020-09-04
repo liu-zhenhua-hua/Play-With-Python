@@ -27,3 +27,7 @@ print(alist)
 
 
 
+print(list("Hello Python")) #通过list函数, 可以将字符串拆分成字符
+
+
+tuple_frist = (5,54,10,100,2,1)
