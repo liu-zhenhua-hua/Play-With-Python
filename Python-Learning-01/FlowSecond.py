@@ -32,3 +32,11 @@ for a,b in new_collection:
 
 print(cresult)
 
+print("================================================================")
+
+value = [1,2,3,4]
+value_squared = []
+for item in value:
+    value_squared.append(item * item)
+
+print(value_squared)
