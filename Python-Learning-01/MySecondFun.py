@@ -15,3 +15,13 @@ print(power(3))
 
 result = power(y=3,x=2)
 print(result)
+
+def find_max_number(*numbers):
+    if len(numbers) == 0:
+        return None
+    else:
+        maxnum = numbers[0]
+        for n in numbers[1:]:
+            if n > maxnum:
+                maxnum = n
+        return maxnum
