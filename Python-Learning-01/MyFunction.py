@@ -47,3 +47,14 @@ def calculate(x,y):
         return None
     else:
         return x + y
+
+
+x1 = 8
+x2 = 9
+
+if (calculate(-2,4) == None):
+    print("The Argument which was passed is invalid")
+else:
+    print("The Argument is Correct ")
+    cal_result = calculate(8,9)
+    print(cal_result)
