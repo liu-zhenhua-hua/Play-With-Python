@@ -10,3 +10,4 @@ def power(x,y=2):
         y = y-1
     return r
 
+print(power(3))
