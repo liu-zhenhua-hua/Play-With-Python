@@ -25,3 +25,7 @@ def find_max_number(*numbers):
             if n > maxnum:
                 maxnum = n
         return maxnum
+
+
+print("===========================================")
+print(find_max_number(9))
