@@ -1,6 +1,7 @@
 '''
 Python First Module
 '''
+print(__name__)
 
 def first_function():
     print("The First Module Function ! ")
