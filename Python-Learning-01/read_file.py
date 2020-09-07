@@ -4,9 +4,10 @@ Python read a file program
 '''
 import sys #import the sys module for process arguments which user passed.
 def read_file(file_name,mode):
-    with open(file_name,mode) as file_obj:
-        line = file_obj.readline()
-        print(line)
+    with open(file_name,mode) as file_obj: #file_object 
+        for line in file_obj:
+            print(line,end="")
+
 
 def main_proc():
     arguments = sys.argv
