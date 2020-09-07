@@ -4,7 +4,7 @@ Python read a file program
 '''
 import sys #import the sys module for process arguments which user passed.
 def read_file(file_name,mode):
-    with open(file_name,mode) as file_obj: #file_object 
+    with open(file_name,mode) as file_obj: #file_object, with context statment, the file object can be closed automatically
         for line in file_obj:
             print(line,end="")
 
