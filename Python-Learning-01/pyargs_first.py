@@ -3,11 +3,13 @@
 Python process argument
 '''
 import sys
-import pandas
+
 def main_method():
     print("Anaconda Python Platform")
     print(sys.argv)
-
+    print(len(sys.argv))
+    if(len(sys.argv) == 1):
+        print("Missing arguments for this program ! ")
 
 if __name__ == "__main__":
     main_method()
