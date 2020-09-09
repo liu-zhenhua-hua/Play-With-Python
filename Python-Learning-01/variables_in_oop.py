@@ -11,7 +11,7 @@ class Employee:
         return '{} {}'.format(self.firstname, self.lastname)
 
     def pay_raise(self):
-        return self.salary * self.raise_amount
+        return self.salary * Employee.raise_amount
 
 
 emp_1 = Employee('Tony', 'Liu', 50000)
@@ -22,3 +22,7 @@ emp_1.raise_amount = 1.05
 print(Employee.raise_amount)
 print(emp_1.raise_amount)
 print(emp_2.raise_amount)
+
+print("===================================================================================")
+
+
