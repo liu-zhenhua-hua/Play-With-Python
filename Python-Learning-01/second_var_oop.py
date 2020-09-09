@@ -1,4 +1,10 @@
 #!/Users/tony/anaconda3/bin/python3
+import PyQt5.QtWidgets
+import PyQt5.QtCore
+import PyQt5.QtGui
+import PyQt5.QtSql
+import PyQt5.QtMultimedia
+import PyQt5.QtMultimediaWidgets
 
 class Employee:
     object_num = 0
