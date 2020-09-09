@@ -17,6 +17,8 @@ class Employee:
 emp_1 = Employee('Tony', 'Liu', 50000)
 emp_2 = Employee('Mark', 'Zhang', 60000)
 
+emp_1.raise_amount = 1.05
+
 print(Employee.raise_amount)
 print(emp_1.raise_amount)
 print(emp_2.raise_amount)
