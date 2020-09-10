@@ -25,7 +25,8 @@ class Employee:
         return self.salary * Employee.raise_amount_value
 
     """
-        
+    @staticmethod 静态方法只是名义上归属于类管理, 不能使用类变量和实例变量, 我们可以把它
+    看成类的工具包, 注意下面就是一个定义好的静态变量, 我们既没有传入"self",也没有传入"cls"
     """
     @staticmethod
     def calculate_days():
