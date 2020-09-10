@@ -5,7 +5,7 @@ class Employee:
     raise_amount = 1.04
 
     """
-        Python类中, 只能定义一个
+        Python类中, 只能定义一个__init__ 方法, 它的作用就是类似Java中的构造器
     """
     def __init__(self, firstname, lastname, salary):
         self.firstname = firstname
@@ -31,6 +31,10 @@ emp_3 = Employee('Jane', 'Doe', 70000)
 
 emp_2.raise_amount = 1.08
 
-print(emp_1.pay_raise())
-print(emp_2.pay_raise())
-print(emp_3.pay_raise())
+
+print(Employee.__dict__)
+print(emp_1.__dict__)
+print(emp_2.__dict__)
+# print(emp_1.pay_raise())
+# print(emp_2.pay_raise())
+# print(emp_3.pay_raise())
