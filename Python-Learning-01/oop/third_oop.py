@@ -29,6 +29,8 @@ emp_1 = Employee('Tony', 'Liu', 50000)
 emp_2 = Employee('Mark', 'Han', 60000)
 emp_3 = Employee('Jane', 'Doe', 70000)
 
+emp_2.raise_amount = 1.08
+
 print(emp_1.pay_raise())
 print(emp_2.pay_raise())
-print(emp_2.pay_raise())
+print(emp_3.pay_raise())
