@@ -40,4 +40,10 @@ print(emp_2.pay_raise())
 print(emp_3.pay_raise())
 
 
-print("========================= Employee.raise_amount = 1.05 ========================")
+print("========================= SpecificObj.raise_amount = 1 ========================")
+
+emp_2.raise_amount = 1
+
+print(emp_1.pay_raise())
+print(emp_2.pay_raise())
+print(emp_3.pay_raise())
