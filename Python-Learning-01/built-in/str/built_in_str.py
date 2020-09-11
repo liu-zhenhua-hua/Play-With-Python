@@ -64,4 +64,12 @@ print("Google V8 Engine".find("Python")) #return -1
 
 print("Google".find('G',1,3)) # return -1, 在指定的区间没有找到'G'
 
+"""
+str.format(*args, **kwargs) 
+对字符串进行格式化操作的一个方法, str中包含一个或者多个替换字段,使用'{}' 来描述的, {}这里可以给出参数的位置索引, 
+或者{}里面给出关键字(keyword), 最终将{}替换成具体的内容 
 
+这个方法要好好研究一下
+"""
+
+print("{} is a Search Engine {}".format('Google','Company'))
