@@ -26,8 +26,11 @@ print(" Python is Short ".center(40,'*'))
 
 
 """
-str.count(sub[, start[, end]]) 
+str.count(sub[, start[, end]]), 查找sub 在str中出现的次数, start, end 可以指定在一定的范围搜索
 Return the number of non-overlapping occurrences of substring sub in the range [start, end]. 
 Optional arguments start and end are interpreted as in slice notation.
 """
 print("Python programming platform".count('n',0,6))
+
+print("Python Programming Learning Plan".count('n'))
+
