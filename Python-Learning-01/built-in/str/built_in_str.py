@@ -53,3 +53,15 @@ default is 8, giving tab positions at columns 0, 8, 16 and so on
 """
 print("01\t02\t".expandtabs(18))
 
+print("=============================================================================================")
+
+"""
+str.find(sub[,start[,end]]),
+返回lowest 索引值, start, end设置查找范围, 如果没找到返回 -1
+"""
+print("Google V8 Engine".find("Python")) #return -1
+
+
+print("Google".find('G',1,3)) # return -1, 在指定的区间没有找到'G'
+
+
