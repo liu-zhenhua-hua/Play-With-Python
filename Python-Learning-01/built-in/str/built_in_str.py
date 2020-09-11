@@ -19,7 +19,7 @@ print("dOuble".capitalize()) #输出 Double
 
 """
 str.center(width,[fillchar])
-让字符串儿(在长度为width)居中显示, 可以使用fill char进行填充,默认是ASCII码的空格,
+让字符串儿(在长度为width)居中显示, 可以使用fill char(unicode也是可以的 '\u4E06')进行填充,默认是ASCII码的空格,
 如果width的大小 小于或等于str, 方法返回字符串本身
 """
 print(" Python is Short ".center(40,'*'))
@@ -33,4 +33,23 @@ Optional arguments start and end are interpreted as in slice notation.
 print("Python programming platform".count('n',0,6))
 
 print("Python Programming Learning Plan".count('n'))
+
+
+
+
+print("encoding-string".encode(encoding='utf-8'))
+
+"""
+str.endswith(suffix[, start[, end]]), str时候以suffix结尾, 这个suffix也可以是来自 a tuple of suffixes
+看下面的例子, 同样的也可以通过 start, end 这两个参数指定搜索范围
+"""
+print("string".endswith('ng'))
+print("string max".endswith(('ng','ag','maxg')))
+
+
+"""
+str.expandtabs(tabsize=8), 这个方法就是将tab 字符用更多的空格填充, 默认值是8
+default is 8, giving tab positions at columns 0, 8, 16 and so on
+"""
+print("01\t02\t".expandtabs(18))
 
