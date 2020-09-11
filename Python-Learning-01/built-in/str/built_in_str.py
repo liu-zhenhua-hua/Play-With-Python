@@ -23,3 +23,11 @@ str.center(width,[fillchar])
 如果width的大小 小于或等于str, 方法返回字符串本身
 """
 print(" Python is Short ".center(40,'*'))
+
+
+"""
+str.count(sub[, start[, end]]) 
+Return the number of non-overlapping occurrences of substring sub in the range [start, end]. 
+Optional arguments start and end are interpreted as in slice notation.
+"""
+print("Python programming platform".count('n',0,6))
