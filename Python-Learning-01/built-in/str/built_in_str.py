@@ -87,6 +87,17 @@ print("8768767857657657657".isdecimal())
 
 
 """
-str.isidentifier() 查看这个str
+str.isidentifier() 查看这个str是否是Python的关键字,
 """
 print('class'.isidentifier())
+
+
+"""
+str.lower(), 将str变成小写
+"""
+print("LJLJLKJLJ".lower())
+
+
+"""
+
+"""
