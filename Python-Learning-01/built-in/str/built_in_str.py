@@ -73,3 +73,20 @@ str.format(*args, **kwargs)
 """
 
 print("{} is a Search Engine {}".format('Google','Company'))
+
+
+"""
+str.index(sub[,start[,end]}) 
+与find方法类似, 不过没有找到sub, index方法会触发ValueError的异常
+"""
+
+print("JavaScript".index('aS')) #返回第一个匹配字符的索引值, 如果没找到匹配的字符, ValueError的异常
+
+
+print("8768767857657657657".isdecimal())
+
+
+"""
+str.isidentifier() 查看这个str
+"""
+print('class'.isidentifier())
