@@ -109,8 +109,9 @@ print("fld-strip....".lstrip("fld-"))
 print("fld-strip....".rstrip("."))
 
 """
-str.partition(sep) 这个参数sep, separator的意思
-返回 3个元素的tuple, separator 之前的部分, separator本身, separator之后的部分
+str.partition(sep) 这个参数sep, separator的意思, 并且是以第一次出现的sep为基准
+返回 3个元素的tuple, separator 之前的部分, separator本身, separator之后的部分,
+如果找不到separator, 就返回一个tuple,也是三个元素,字符串本身, 另外两个元素为空字符串
 """
 
-print("My-Spring-Framework".partition('-')) # 返回的是('My', '-', 'Spring-Framework')
+print("My-Spring-Framework".partition('-')) # 返回的是('My', '-', 'Spring-Framework'),
