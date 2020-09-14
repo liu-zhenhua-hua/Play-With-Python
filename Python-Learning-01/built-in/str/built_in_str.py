@@ -115,3 +115,4 @@ str.partition(sep) 这个参数sep, separator的意思, 并且是以第一次出
 """
 
 print("My-Spring-Framework".partition('-')) # 返回的是('My', '-', 'Spring-Framework'),
+print("My-Python-Programming".partition('*')) #('My-Python-Programming', '', ''), 没有找到separator, 返回字符串本身,以及两个空串儿
