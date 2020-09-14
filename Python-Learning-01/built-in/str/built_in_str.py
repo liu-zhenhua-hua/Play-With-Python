@@ -137,7 +137,12 @@ print("=========================================================================
 """
 str.strip([chars])
 Return a copy of the string with the leading and trailing characters removed. 
-The chars argument is a string specifying the set of characters to be removed. 
+The [chars] argument is a string specifying the set of characters to be removed. 
 If omitted or None, the chars argument defaults to removing whitespace. 
 The chars argument is not a prefix or suffix; rather, all combinations of its values are stripped:
 """
+
+print('   spacious   '.strip())
+print('www.example.com'.strip('cmowz.')) # 这个例子, 说明了chars这个参数, 并不是指的prefix,或者suffix, 可以是一种组合,
+
+print("www.google.com".strip("comw."))
