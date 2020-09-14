@@ -8,7 +8,7 @@ import string
 
 """
 string class's constant (PEP 3101 - Advanced String Formatting)
-PEP Python Enhancement Proposal
+PEP Python Enhancement Proposal 
 """
 print(string.ascii_lowercase)
 print(string.printable)
