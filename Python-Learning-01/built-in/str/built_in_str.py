@@ -104,14 +104,11 @@ str.partition(sep) 这个参数sep, separator的意思, 并且是以第一次出
 print("My-Spring-Framework".partition('-'))  # 返回的是('My', '-', 'Spring-Framework'),
 print("My-Python-Programming".partition('*'))  # ('My-Python-Programming', '', ''), 没有找到separator, 返回字符串本身,以及两个空串儿
 
-
 """
 str.rpartion(sep), 这个参数sep, separator的意思, 并且是以最后一次出现的sep为基准,
 与partion方法类似
 """
-print("My-Spring-Framework".rpartition('-')) #('My-Spring', '-', 'Framework')
-
-
+print("My-Spring-Framework".rpartition('-'))  # ('My-Spring', '-', 'Framework')
 
 """
 str.replace(old, new[, count]), 字符串替换方法, 将字符串中所有的sub替换成new, 如果指定了count这个可选参数,
@@ -120,8 +117,7 @@ str.replace(old, new[, count]), 字符串替换方法, 将字符串中所有的s
 
 print("Python-Programming-SpringFramework".replace('-', '&&'))  # Python&&Programming&&SpringFramework
 
-print("Python-Programming-SpringFramework".replace('$$', '&&')) # 如果找不到需要替换的字符, 就返回字符串本身
-
+print("Python-Programming-SpringFramework".replace('$$', '&&'))  # 如果找不到需要替换的字符, 就返回字符串本身
 
 print("=============================================================================================================")
 
@@ -129,7 +125,19 @@ print("=========================================================================
 str.split(sep=None, maxsplit=-1), str.rsplit(sep=None, maxsplit=-1), 这两个方法类似,
 如果不指定sep, 该方法就会找字符串中任何的空格作为sep, maxsplit默认值是-1, 如果指定maxsplit, 方法返回的list最多包含maxsplit+1个元素
 """
-print("Python-JavaScript-Java-Linux".rsplit('-')) #['Python', 'JavaScript', 'Java', 'Linux']
+print("Python-JavaScript-Java-Linux".rsplit('-'))  # ['Python', 'JavaScript', 'Java', 'Linux']
 
-print('1,2,3,4'.split(',')) #['1', '2', '3', '4']
-print('1,2,3,4'.split(',',maxsplit=1)) #['1', '2,3,4']
+print('1,2,3,4'.split(','))  # ['1', '2', '3', '4']
+print('1,2,3,4'.split(',', maxsplit=1))  # ['1', '2,3,4']
+
+print('1,2,,3,'.split(','))  # ['1', '2', '', '3', '']
+
+print("=============================================================================================================")
+
+"""
+str.strip([chars])
+Return a copy of the string with the leading and trailing characters removed. 
+The chars argument is a string specifying the set of characters to be removed. 
+If omitted or None, the chars argument defaults to removing whitespace. 
+The chars argument is not a prefix or suffix; rather, all combinations of its values are stripped:
+"""
