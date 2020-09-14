@@ -28,6 +28,7 @@ to call above function
 
 """
 default values are evaluated at the point of function definition in the defining scope
+Python函数的默认值, 是在定义函数时确定下来的
 """
 i = 5
 
@@ -38,3 +39,37 @@ def my_default_value(arg=i):
 
 i = 6
 my_default_value()
+
+
+def adding_elements(a, L=[]):
+    L.append(a)
+    return L
+
+
+print(adding_elements(1))
+print(adding_elements(2))
+print(adding_elements(3))
+print(adding_elements(4))
+
+"""
+we can define mutable default value like this
+"""
+
+
+def append_value(a, L=None):
+    if L is None:
+        L = []
+    L.append(a)
+    return L
+
+
+print("==========================================================================================")
+print(append_value(11))
+print(append_value(12))
+print(append_value(13))
+print(append_value(14))
+
+
+print("==========================================================================================")
+
+
