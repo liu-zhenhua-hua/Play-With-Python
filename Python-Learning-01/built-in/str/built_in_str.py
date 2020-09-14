@@ -99,5 +99,11 @@ print("LJLJLKJLJ".lower())
 
 
 """
-
+str.lstrip([chars]) leading character removed (左), 参数chars, 指定要移除的str,
+如果不指定chars, 这个方法就移除空格.
 """
+print("      strip..     .".lstrip())
+
+
+print("fld-strip....".lstrip("fld-"))
+print("fld-strip....".rstrip("."))
