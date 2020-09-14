@@ -7,6 +7,13 @@ define Python Function,
 
 """
 In a function call, keyword arguments must follow positional arguments.----> 这一点非常重要
+传递keyword类型的参数, 必须与函数的定义相匹配, 但是彼此之间的顺序并不重要, 
+
+result = calculate_value(**{'first': 10, 'second': 30})  **keywords --> 将dict作为参数传递到函数中   keywords argument
+print(calculate_posi(*(45, 5)))                          *args      --> 将tuple作为参数传递到函数中, positional argument
+
+{特别要注意: (*name must occur before **name.) }
+
 """
 
 def parrot(voltage, state='a stiff', action='voom', type='Norwegian Blue'):
