@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09c80ce1-01ad-4fc3-9c57-bba588d577a5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/library/re/regular_third.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/re/regular_third.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/re/regular_fourth.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/re/regular_fourth.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,29 +58,7 @@
       <recent name="$PROJECT_DIR$/opencv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.regular_third">
-    <configuration name="define_func_exam02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python-Learning-01" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lang/functions" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lang/functions/define_func_exam02.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.regular_fourth">
     <configuration name="regular_first" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-Learning-01" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,6 +73,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/library/re/regular_first.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="regular_fourth" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-Learning-01" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/library/re" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/library/re/regular_fourth.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.regular_fourth" />
         <item itemvalue="Python.regular_third" />
         <item itemvalue="Python.regular_second" />
         <item itemvalue="Python.regular_first" />
         <item itemvalue="Python.string_lib_second" />
-        <item itemvalue="Python.define_func_exam02" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +193,7 @@
       <workItem from="1597836847022" duration="9740000" />
       <workItem from="1598253901877" duration="33000" />
       <workItem from="1598255499935" duration="8000" />
-      <workItem from="1599109234232" duration="120206000" />
+      <workItem from="1599109234232" duration="120537000" />
     </task>
     <servers />
   </component>
@@ -221,44 +221,44 @@
       <screen x="0" y="23" width="1440" height="833" />
     </state>
     <state x="386" y="30" key="#regular/0.23.1440.833@0.23.1440.833" timestamp="1597836863492" />
-    <state width="1878" height="299" key="GridCell.Tab.0.bottom" timestamp="1600169760160">
+    <state width="1878" height="299" key="GridCell.Tab.0.bottom" timestamp="1600170951192">
       <screen x="1440" y="23" width="1920" height="1177" />
     </state>
     <state width="1878" height="266" key="GridCell.Tab.0.bottom/0.23.1440.825/1440.23.1920.1177@1440.23.1920.1177" timestamp="1600078261064" />
-    <state width="1878" height="299" key="GridCell.Tab.0.bottom/0.23.1440.827/1440.23.1920.1177@1440.23.1920.1177" timestamp="1600169760160" />
+    <state width="1878" height="299" key="GridCell.Tab.0.bottom/0.23.1440.827/1440.23.1920.1177@1440.23.1920.1177" timestamp="1600170951192" />
     <state width="1878" height="328" key="GridCell.Tab.0.bottom/0.23.1440.828/1440.23.1920.1177@1440.23.1920.1177" timestamp="1599805543481" />
     <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.23.1440.829/1440.23.1920.1177@1440.23.1920.1177" timestamp="1599997570438" />
     <state width="1398" height="192" key="GridCell.Tab.0.bottom/0.23.1440.830/1440.23.1920.1177@0.23.1440.830" timestamp="1599552309374" />
     <state width="1878" height="328" key="GridCell.Tab.0.bottom/0.23.1440.830/1440.23.1920.1177@1440.23.1920.1177" timestamp="1599831015823" />
     <state width="1398" height="238" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1598019857458" />
     <state width="1398" height="238" key="GridCell.Tab.0.bottom/0.23.1440.833@0.23.1440.833" timestamp="1598231725378" />
-    <state width="1878" height="299" key="GridCell.Tab.0.center" timestamp="1600169760159">
+    <state width="1878" height="299" key="GridCell.Tab.0.center" timestamp="1600170951191">
       <screen x="1440" y="23" width="1920" height="1177" />
     </state>
     <state width="1878" height="266" key="GridCell.Tab.0.center/0.23.1440.825/1440.23.1920.1177@1440.23.1920.1177" timestamp="1600078261063" />
-    <state width="1878" height="299" key="GridCell.Tab.0.center/0.23.1440.827/1440.23.1920.1177@1440.23.1920.1177" timestamp="1600169760159" />
+    <state width="1878" height="299" key="GridCell.Tab.0.center/0.23.1440.827/1440.23.1920.1177@1440.23.1920.1177" timestamp="1600170951191" />
     <state width="1878" height="328" key="GridCell.Tab.0.center/0.23.1440.828/1440.23.1920.1177@1440.23.1920.1177" timestamp="1599805543480" />
     <state width="1878" height="304" key="GridCell.Tab.0.center/0.23.1440.829/1440.23.1920.1177@1440.23.1920.1177" timestamp="1599997570437" />
     <state width="1398" height="192" key="GridCell.Tab.0.center/0.23.1440.830/1440.23.1920.1177@0.23.1440.830" timestamp="1599552309373" />
     <state width="1878" height="328" key="GridCell.Tab.0.center/0.23.1440.830/1440.23.1920.1177@1440.23.1920.1177" timestamp="1599831015822" />
     <state width="1398" height="238" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1598019857457" />
     <state width="1398" height="238" key="GridCell.Tab.0.center/0.23.1440.833@0.23.1440.833" timestamp="1598231725377" />
-    <state width="1878" height="299" key="GridCell.Tab.0.left" timestamp="1600169760158">
+    <state width="1878" height="299" key="GridCell.Tab.0.left" timestamp="1600170951191">
       <screen x="1440" y="23" width="1920" height="1177" />
     </state>
     <state width="1878" height="266" key="GridCell.Tab.0.left/0.23.1440.825/1440.23.1920.1177@1440.23.1920.1177" timestamp="1600078261063" />
-    <state width="1878" height="299" key="GridCell.Tab.0.left/0.23.1440.827/1440.23.1920.1177@1440.23.1920.1177" timestamp="1600169760158" />
+    <state width="1878" height="299" key="GridCell.Tab.0.left/0.23.1440.827/1440.23.1920.1177@1440.23.1920.1177" timestamp="1600170951191" />
     <state width="1878" height="328" key="GridCell.Tab.0.left/0.23.1440.828/1440.23.1920.1177@1440.23.1920.1177" timestamp="1599805543479" />
     <state width="1878" height="304" key="GridCell.Tab.0.left/0.23.1440.829/1440.23.1920.1177@1440.23.1920.1177" timestamp="1599997570436" />
     <state width="1398" height="192" key="GridCell.Tab.0.left/0.23.1440.830/1440.23.1920.1177@0.23.1440.830" timestamp="1599552309373" />
     <state width="1878" height="328" key="GridCell.Tab.0.left/0.23.1440.830/1440.23.1920.1177@1440.23.1920.1177" timestamp="1599831015822" />
     <state width="1398" height="238" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1598019857457" />
     <state width="1398" height="238" key="GridCell.Tab.0.left/0.23.1440.833@0.23.1440.833" timestamp="1598231725377" />
-    <state width="1878" height="299" key="GridCell.Tab.0.right" timestamp="1600169760160">
+    <state width="1878" height="299" key="GridCell.Tab.0.right" timestamp="1600170951192">
       <screen x="1440" y="23" width="1920" height="1177" />
     </state>
     <state width="1878" height="266" key="GridCell.Tab.0.right/0.23.1440.825/1440.23.1920.1177@1440.23.1920.1177" timestamp="1600078261064" />
-    <state width="1878" height="299" key="GridCell.Tab.0.right/0.23.1440.827/1440.23.1920.1177@1440.23.1920.1177" timestamp="1600169760160" />
+    <state width="1878" height="299" key="GridCell.Tab.0.right/0.23.1440.827/1440.23.1920.1177@1440.23.1920.1177" timestamp="1600170951192" />
     <state width="1878" height="328" key="GridCell.Tab.0.right/0.23.1440.828/1440.23.1920.1177@1440.23.1920.1177" timestamp="1599805543480" />
     <state width="1878" height="304" key="GridCell.Tab.0.right/0.23.1440.829/1440.23.1920.1177@1440.23.1920.1177" timestamp="1599997570437" />
     <state width="1398" height="192" key="GridCell.Tab.0.right/0.23.1440.830/1440.23.1920.1177@0.23.1440.830" timestamp="1599552309374" />
@@ -310,6 +310,7 @@
     <SUITE FILE_PATH="coverage/Python_Learning_01$StringFirst.coverage" NAME="StringFirst Coverage Results" MODIFIED="1599123891589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Learning_01$fifth_oop.coverage" NAME="fifth_oop Coverage Results" MODIFIED="1599740088864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop" />
     <SUITE FILE_PATH="coverage/Python_Learning_01$FlowSecond.coverage" NAME="FlowSecond Coverage Results" MODIFIED="1599213712050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Learning_01$regular_fourth.coverage" NAME="regular_fourth Coverage Results" MODIFIED="1600170951184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/library/re" />
     <SUITE FILE_PATH="coverage/Python_Learning_01$start_opencv.coverage" NAME="start_opencv Coverage Results" MODIFIED="1599709008918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv" />
     <SUITE FILE_PATH="coverage/Python_Learning_01$second_oop.coverage" NAME="second_oop Coverage Results" MODIFIED="1599721547809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop" />
     <SUITE FILE_PATH="coverage/Python_Learning_01$SetFirst.coverage" NAME="SetFirst Coverage Results" MODIFIED="1599182728688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -335,7 +336,7 @@
     <SUITE FILE_PATH="coverage/Python_Learning_01$StringSecond.coverage" NAME="StringSecond Coverage Results" MODIFIED="1599192762329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Learning_01$regular.coverage" NAME="regular Coverage Results" MODIFIED="1597908961287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Learning_01$regular_second.coverage" NAME="regular_second Coverage Results" MODIFIED="1600158087447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/library/re" />
-    <SUITE FILE_PATH="coverage/Python_Learning_01$regular_third.coverage" NAME="regular_third Coverage Results" MODIFIED="1600169760151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/library/re" />
+    <SUITE FILE_PATH="coverage/Python_Learning_01$regular_third.coverage" NAME="regular_third Coverage Results" MODIFIED="1600170720367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/library/re" />
     <SUITE FILE_PATH="coverage/Python_Learning_01$my_second_exception.coverage" NAME="my_second_exception Coverage Results" MODIFIED="1599545371464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Learning_01$first_oop.coverage" NAME="first_oop Coverage Results" MODIFIED="1599655391736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop" />
     <SUITE FILE_PATH="coverage/Python_Learning_01$first_module.coverage" NAME="first_module Coverage Results" MODIFIED="1599381566923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
