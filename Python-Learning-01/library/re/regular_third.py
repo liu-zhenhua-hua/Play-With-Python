@@ -13,3 +13,12 @@ pattern = re.compile(r'\W')
 matches = pattern.finditer(my_search_text)
 for items in matches:
     print(items)
+
+
+print("=" * 40 + " next regular expression " + "=" * 40)
+
+my_search_text = """[]AW"""
+pattern = re.compile(r'\w')
+matches = pattern.finditer(my_search_text)
+for items in matches:
+    print(items)
