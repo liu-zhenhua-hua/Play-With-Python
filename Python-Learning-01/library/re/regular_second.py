@@ -19,3 +19,13 @@ for items in matches:
     print(items)
 
 
+print("=" * 40 + " next regular expression " + "=" * 40)
+
+
+my_pattern_text="abc890-7897-mnlop"
+
+pattern = re.compile(r'\d')
+matches = pattern.finditer(my_pattern_text)
+
+for items in matches:
+    print(items)
