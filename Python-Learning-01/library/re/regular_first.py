@@ -6,7 +6,8 @@ metacharacter (special character)
 转义字符 \ 将这些特殊的字符, 作为pattern的一部分
 正则表达式中的特殊字符, 
 1)  . 这个表示任意字符, 不包括新行  
-2)  ^ 
+2)  ^ 从字符串开始位置
+3)  $ 从字符串结束位置
 """
 my_search_text = """
 This is a search text defined in Python
