@@ -31,7 +31,8 @@ print("=" * 40 + " ^,$ Regular Expression Language " + "="*40 )
 
 my_sentence = 'Start a new Sentence and then bring it to an end'
 
-my_sentence_pattern = re.compile(r'^Start')
+# my_sentence_pattern = re.compile(r'^Start')
+my_sentence_pattern = re.compile(r'end$')
 my_sentence_matches = my_sentence_pattern.finditer(my_sentence)
 
 for items in my_sentence_matches:
