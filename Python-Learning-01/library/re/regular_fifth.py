@@ -3,5 +3,9 @@
 import re
 
 """
-
+\b Word Boundary
+\B Not a Word Boundary
 """
+
+my_text_search = "Ha HaHa"
+
