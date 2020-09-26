@@ -5,6 +5,8 @@ import re
 """
 \b Word Boundary
 \B Not a Word Boundary
+^  -Beginning of a String
+$  -End of a String
 """
 
 my_text_search = "Ha HaHa"
@@ -23,3 +25,8 @@ not_boundary_matches = not_boundary_pattern.finditer(my_text_search)
 
 for matches in not_boundary_matches:
     print(matches)
+
+
+print("=" * 40 + " ^,$ Regular Expression Language " + "="*40 )
+
+my_sentence = 'Start a new Sentence and then bring it to an end'
