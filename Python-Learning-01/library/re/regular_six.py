@@ -8,7 +8,7 @@ our_phone_numbers = """
 
 """
 
-pattern = re.compile(r'\d\d\d')
+pattern = re.compile(r'\d\d\d.\d\d\d.\d\d\d\d')
 matches = pattern.finditer(our_phone_numbers)
 
 for items in matches:
