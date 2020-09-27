@@ -2,7 +2,12 @@
 
 import re
 
-pattern = re.compile(r'\d\d\d.\d\d\d.\d\d\d\d')
+"""
+[] 
+"""
+
+# pattern = re.compile(r'\d\d\d.\d\d\d.\d\d\d\d')
+pattern = re.compile(r'\d\d\d[-.]\d\d\d[-.]\d\d\d\d')
 
 with open('data.txt','r',encoding='utf-8') as f:
     contents = f.read()
