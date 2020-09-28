@@ -39,7 +39,7 @@ Mrs. Robinson
 Mr. T
 """
 
-pattern = re.compile(r'Mr\.?\s')
+pattern = re.compile(r'M(r|s|rs)\.?\s[A-Z]')
 matches = pattern.finditer(my_name_list)
 for items in matches:
     print(items)
