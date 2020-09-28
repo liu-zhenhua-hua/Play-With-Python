@@ -22,8 +22,24 @@ my_phone_numbers = """
 使用这种Regular Expression的Quantifier
 """
 
-pattern = re.compile(r'\d{3}.\d{3}.\d{4}')
+pattern = re.compile(r'\d{3}.\d{3}.\d{4}') #
 matches = pattern.finditer(my_phone_numbers)
 
+for items in matches:
+    print(items)
+
+print("")
+print("=" * 90)
+
+my_name_list="""
+Mr. Schafer
+Mr Smith
+Ms Davis
+Mrs. Robinson
+Mr. T
+"""
+
+pattern = re.compile(r'Mr\.?\s')
+matches = pattern.finditer(my_name_list)
 for items in matches:
     print(items)
