@@ -51,3 +51,13 @@ Ms. Taras
 Mrs. T 
 """
 
+"""
+匹配Ms开头的字符串, 输出的结果如下
+Ms. Schafer
+Ms. Taras
+"""
+
+pattern = re.compile(r'Ms?\.\s[a-zA-Z]+')
+matches = pattern.finditer(original_name_list)
+for items in matches:
+    print(items)
