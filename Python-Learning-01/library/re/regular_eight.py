@@ -20,3 +20,20 @@ for items in matches:
 
 print("")
 print("="*90)
+
+my_second_context = """
+cat
+mat
+pat
+bat
+"""
+
+"""
+除了bat, 其它的字符都被提取
+"""
+
+pattern = re.compile(r'[^b]at') #除了bat,其它符合条件的字符都被提取
+matches = pattern.finditer(my_second_context)
+
+for items in matches:
+    print(items)
