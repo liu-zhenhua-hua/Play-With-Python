@@ -29,7 +29,7 @@ for items in matches:
 
 print("=" * 90)
 
-pattern = re.compile(r'[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9]+')
+pattern = re.compile(r'[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+')
 matches = pattern.finditer(my_email_list)
 for items in matches:
     print(items)
