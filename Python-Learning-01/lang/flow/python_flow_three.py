@@ -17,3 +17,8 @@ elif age > 100:
 
 
 print("=" * 90)
+
+spam = 0
+while spam < 5:
+    print("Hello While Loop !")
+    spam = spam + 1
