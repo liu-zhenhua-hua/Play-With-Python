@@ -17,6 +17,6 @@ range() 函数,
 range() 可以传递三个参数, start,stop(not including),step
 """
 
-for i in range(10,51):
+for i in range(10,21):
     print(i)
 
