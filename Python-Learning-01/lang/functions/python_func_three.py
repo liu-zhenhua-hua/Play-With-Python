@@ -27,3 +27,7 @@ def make_piza(*toppings):
         print('- ' + topping)
 
 make_piza('mushrooms','green peper','extra cheese')
+
+
+print("=" * 90)
+
