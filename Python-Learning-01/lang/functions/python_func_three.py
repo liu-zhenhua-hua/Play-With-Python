@@ -19,3 +19,11 @@ produce_pizza('First-peper','Second-mushroom','Third-cheese')
 print("=" * 90)
 
 produce_pizza('Peper-Again')
+
+
+def make_piza(*toppings):
+    print("Making a pizza with the following toppings. ")
+    for topping in toppings:
+        print('- ' + topping)
+
+make_piza('mushrooms','green peper','extra cheese')
