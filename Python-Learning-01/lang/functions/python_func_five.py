@@ -13,6 +13,9 @@ def make_func(first, last, *ingredient):
 def calculate_value(firstv, secondv):
     return operator.mul(firstv, secondv)
 
+def find_min_value(firstv, secondv):
+    return min(firstv, secondv)
+
 
 if __name__ == '__main__':
     make_func('Tony','Liu','A','B','C','D')
@@ -20,3 +23,4 @@ if __name__ == '__main__':
     result = calculate_value(5,8)
     print(result)
     print(max(5,16))
+    print(find_min_value(89,120))
