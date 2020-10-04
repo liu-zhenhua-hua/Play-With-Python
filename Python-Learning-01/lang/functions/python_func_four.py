@@ -7,5 +7,9 @@ def make_dinner(piece,*ingredient):
         print("- " + items)
 
 
+def collect_person_info(first, last, *team_members, **member_info):
+    """collect person information """
+
+
 if __name__ == '__main__':
     make_dinner(2,'Fried','Peper','Apple','Vegetables')
