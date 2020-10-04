@@ -6,7 +6,9 @@ def make_dinner(piece,*ingredient):
     for items in ingredient:
         print("- " + items)
 
-
+"""
+这个函数是个很好的例子
+"""
 def collect_person_info(first, last, *team_members, **member_info):
     """collect person information """
     all_members = team_members
