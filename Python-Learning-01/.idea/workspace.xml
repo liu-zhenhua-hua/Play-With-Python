@@ -56,7 +56,7 @@
       <recent name="$PROJECT_DIR$/opencv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.python_func_scope">
+  <component name="RunManager" selected="Python.python_func_scope_one">
     <configuration name="python_func_five" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-Learning-01" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,7 +101,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="python_func_scope" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="python_func_scope_one" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-Learning-01" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,7 +114,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lang/functions/python_func_scope.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lang/functions/python_func_scope_one.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,7 +169,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.python_func_scope" />
+        <item itemvalue="Python.python_func_scope_one" />
         <item itemvalue="Python.python_func_five" />
         <item itemvalue="Python.python_func_four" />
         <item itemvalue="Python.python_func_three" />
