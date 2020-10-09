@@ -9,6 +9,8 @@
 
 """
 Local and Global Variables with Same Name
+Technically, it's perfectly acceptable to use the same variable name for a global variable
+remember avoid doing this. 
 """
 
 def spam():
@@ -23,4 +25,4 @@ def bacon():
 
 eggs = 'global'
 bacon()
-print(eggs)
+print(eggs) #print global
