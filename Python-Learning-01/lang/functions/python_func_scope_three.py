@@ -5,7 +5,8 @@ g_number = 10 #global variable
 
 def function_scope(firstv, secondv):
     print(g_number,firstv, secondv)
-
+    globals()['g_number'] = 50
+    print(g_number)
 
 
 
