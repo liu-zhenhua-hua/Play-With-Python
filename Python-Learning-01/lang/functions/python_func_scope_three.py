@@ -11,5 +11,18 @@ def function_scope(firstv, secondv):
 
 
 
+def spam():
+    eggs = 90
+    bacon()
+    print(eggs)
+
+def bacon():
+    ham = 101
+    eggs = 0
+
+
+
 if __name__ == '__main__':
     function_scope(15, 20)
+    print()
+    spam()
