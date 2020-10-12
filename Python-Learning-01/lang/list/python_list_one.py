@@ -3,3 +3,5 @@
 """
 Python List
 """
+
+spam=['cat','bat','rat','elephant']
