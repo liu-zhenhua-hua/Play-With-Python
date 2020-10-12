@@ -6,3 +6,9 @@ Python List
 
 spam=['cat','bat','rat','elephant']
 print(spam[0])
+
+
+alist = ['cat','bat','rat','element']
+
+print(type(alist))
+
