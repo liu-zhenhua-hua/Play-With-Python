@@ -19,3 +19,12 @@ alist = ['cat','bat','rat','element']
 """
 spam = [['cat','bat'],[10,20,30,40,50]]
 print(spam[0])
+
+print("*" * 100)
+
+"""
+index可以是负数
+"""
+spam=[12,10,42,33,88,16,73,77]
+print(spam[-1])
+print(spam[-2])
