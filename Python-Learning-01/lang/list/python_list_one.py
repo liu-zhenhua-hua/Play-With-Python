@@ -28,3 +28,6 @@ index可以是负数
 spam=[12,10,42,33,88,16,73,77]
 print(spam[-1])
 print(spam[-2])
+
+
+print("*" * 100)
