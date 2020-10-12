@@ -20,3 +20,12 @@ print("*" * 100)
 spam=['cat','bat','rat','elephant']
 
 print(spam[:2])
+
+print(spam[-4:-1])
+
+
+print('*' * 40 + 'len() function to calculate the length of list' + '*' * 40)
+
+my_length_list = ['cat','bat','rat','elephant']
+
+print(len(my_length_list))
