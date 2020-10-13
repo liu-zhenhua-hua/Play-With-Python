@@ -22,3 +22,14 @@ print(['x','y','z'] * 4)
 spam = [12,56,90]
 spam = spam + ['B','D','Z']
 print(spam)
+
+#========================================
+
+myCatNames=[]
+
+for i in range(10):
+    myCatNames = myCatNames + [i]
+
+print('The value of my List ')
+for value in myCatNames:
+    print(' ' + str(value))

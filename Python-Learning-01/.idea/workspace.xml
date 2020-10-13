@@ -56,7 +56,7 @@
       <recent name="$PROJECT_DIR$/opencv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.python_list_allMyCats">
+  <component name="RunManager" selected="Python.python_list_concate">
     <configuration name="python_list_allMyCats" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-Learning-01" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,9 +169,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.python_list_concate" />
         <item itemvalue="Python.python_list_allMyCats" />
         <item itemvalue="Python.python_list_remove" />
-        <item itemvalue="Python.python_list_concate" />
         <item itemvalue="Python.python_list_modify" />
         <item itemvalue="Python.python_list_slice" />
       </list>
