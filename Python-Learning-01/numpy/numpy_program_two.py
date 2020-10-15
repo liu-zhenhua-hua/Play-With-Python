@@ -34,3 +34,7 @@ np.random.randint(0,10,10) #返回一个数组,每个元素都是0 ~ 10所生成
 np 随机种子, 指定种子,
 可以使每次生成的随机数保持一致
 """
+np.random.seed(666)
+np.random.random(10)
+
+np.random.normal() # Gaussian Distribution-正态分布
