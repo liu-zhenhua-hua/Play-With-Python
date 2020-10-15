@@ -6,3 +6,9 @@ alist_slice = alist[0:3]
 
 print(id(alist))
 print(id(alist_slice))
+
+print(alist_slice)
+alist_slice[0] = 990
+
+print(alist)
+print(alist_slice)
