@@ -2,4 +2,16 @@
 
 import numpy as np
 
-print(np.zeros(10))
+zeros_array = np.zeros(10,dtype=int)
+print(zeros_array)
+print(zeros_array.dtype)
+
+
+print("=" * 90)
+
+print(np.zeros((3,5)))
+
+
+zeros_array = np.zeros(shape=(3,5),dtype=int)
+print(zeros_array)
+print(type(zeros_array))
