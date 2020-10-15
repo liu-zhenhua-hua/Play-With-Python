@@ -18,6 +18,13 @@ print(np.arange(0,5,0.4))
 
 print("=" * 90)
 
-print(np.linspace(0,20,11,dtype=int)) #步长是2, 0 ~ 20 需要11个数
+print(np.linspace(0,20,11,dtype=int)) #步长是2, 0 ~ 20 需要11个数, 11不是步长,这个需要注意
 print(np.linspace(0,20,6,dtype=int))
 print(np.linspace(0,21,8,dtype=int))
+
+
+"""
+np 中的随机数
+"""
+np.random.randint(0,10) #10 第二个参数, 永远取不到这个值
+np.random.randint(0,10,10) #返回一个数组,每个元素都是0 ~ 10所生成的随机数
