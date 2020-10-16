@@ -6,5 +6,7 @@ import matplotlib.pyplot as plt
 
 from sklearn import datasets
 
-iris = datasets.load_iris() #sklearn自己定义的一个数据集, 它所返回的类型类似python中的字典Bunch对象
+iris = datasets.load_iris() #sklearn自己定义的一个数据集, 它所返回的类型类似python中的字典 一个Bunch对象
 print(iris.keys())
+
+print(iris.DESCR)
