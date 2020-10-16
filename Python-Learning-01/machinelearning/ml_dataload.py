@@ -16,3 +16,7 @@ print(iris.data) #查看测试数据, iris.data是numpy的一个对象
 # print(type(iris.data)) #<class 'numpy.ndarray'>
 
 print("The Shape of iris's Data {}".format(iris.data.shape))
+
+print("Feature Names \n{}".format(iris.feature_names))
+
+print("Target Names \n{}".format(iris.target_names))
