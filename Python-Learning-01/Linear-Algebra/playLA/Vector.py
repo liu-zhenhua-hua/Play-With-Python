@@ -1,6 +1,6 @@
 class Vector:
 
-    def __int__(self, lst):
+    def __init__(self, lst):
         self._values = lst
 
     def __repr__(self):
