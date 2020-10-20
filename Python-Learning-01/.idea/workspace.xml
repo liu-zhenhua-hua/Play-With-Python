@@ -48,7 +48,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lang/functions" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -191,7 +191,7 @@
       <workItem from="1597836847022" duration="9740000" />
       <workItem from="1598253901877" duration="33000" />
       <workItem from="1598255499935" duration="8000" />
-      <workItem from="1599109234232" duration="209744000" />
+      <workItem from="1599109234232" duration="210358000" />
     </task>
     <servers />
   </component>
@@ -295,9 +295,10 @@
     <state width="1878" height="406" key="GridCell.Tab.1.right/0.23.1440.827/1440.23.1920.1177@1440.23.1920.1177" timestamp="1599730505090" />
     <state width="1878" height="406" key="GridCell.Tab.1.right/0.23.1440.828/1440.23.1920.1177@1440.23.1920.1177" timestamp="1601804344693" />
     <state width="1878" height="317" key="GridCell.Tab.1.right/0.23.1440.829/1440.23.1920.1177@1440.23.1920.1177" timestamp="1602575091534" />
-    <state x="1716" y="77" key="SettingsEditor" timestamp="1601803419809">
+    <state x="1716" y="77" key="SettingsEditor" timestamp="1603175205854">
       <screen x="1440" y="23" width="1920" height="1177" />
     </state>
+    <state x="1716" y="77" key="SettingsEditor/0.23.1440.825/1440.23.1920.1177@1440.23.1920.1177" timestamp="1603175205854" />
     <state x="1716" y="77" key="SettingsEditor/0.23.1440.828/1440.23.1920.1177@1440.23.1920.1177" timestamp="1601803419809" />
     <state x="1716" y="77" key="SettingsEditor/0.23.1440.830/1440.23.1920.1177@1440.23.1920.1177" timestamp="1599569052069" />
     <state x="207" y="61" key="SettingsEditor/0.23.1440.833@0.23.1440.833" timestamp="1597836903503" />
