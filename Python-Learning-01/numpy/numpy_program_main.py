@@ -21,3 +21,13 @@ if __name__ == '__main__':
     # vectorFirst[0]="Linear" #会报错, numpy中的ndarray对象,只能存储同一种数据类型
 
     # print(type(vectorFirst))
+
+    vectorFirst[0] = 9000
+
+    print(vectorFirst)
+
+    """
+        numpy 创建零向量
+    """
+
+    print(np.zeros(5,dtype='int')) #np.zeros(5,dtype='int') np.zeros创建零向量, 
