@@ -1,7 +1,7 @@
 class Vector:
 
     def __init__(self, lst):
-        self._values = lst
+        self._values = list(lst) #immutable list,
 
     def __repr__(self):
         return "Vector({})".format(self._values)
