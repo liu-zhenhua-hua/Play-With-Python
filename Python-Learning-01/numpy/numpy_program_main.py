@@ -30,4 +30,6 @@ if __name__ == '__main__':
         numpy 创建零向量
     """
 
-    print(np.zeros(5,dtype='int')) #np.zeros(5,dtype='int') np.zeros创建零向量, 
+    print(np.zeros(5,dtype='int')) #np.zeros(5,dtype='int') np.zeros创建零向量, 默认是浮点数据类型, 5是维度
+    print(np.ones(5,dtype='int')) #np.ones(5,dtype='int'), 创建5个1的向量
+    print(np.full(5,666)) #np.full() 创建所有元素都一样的向量
