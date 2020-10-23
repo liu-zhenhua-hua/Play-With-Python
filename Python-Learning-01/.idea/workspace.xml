@@ -56,7 +56,7 @@
       <recent name="$PROJECT_DIR$/opencv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.numpy_program_main">
+  <component name="RunManager" selected="Python.python_list_reference">
     <configuration name="Linear-env-check" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-Learning-01" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,7 +145,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="numpy_program_three" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="python_list_reference" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-Learning-01" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -153,12 +153,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/numpy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lang/list" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/numpy/numpy_program_three.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lang/list/python_list_reference.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.python_list_reference" />
         <item itemvalue="Python.numpy_program_main" />
         <item itemvalue="Python.Linear-env-check" />
         <item itemvalue="Python.ml_pkg_usage" />
         <item itemvalue="Python.ml_dataload" />
-        <item itemvalue="Python.numpy_program_three" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +191,7 @@
       <workItem from="1597836847022" duration="9740000" />
       <workItem from="1598253901877" duration="33000" />
       <workItem from="1598255499935" duration="8000" />
-      <workItem from="1599109234232" duration="213871000" />
+      <workItem from="1599109234232" duration="215044000" />
     </task>
     <servers />
   </component>
@@ -219,10 +219,11 @@
       <screen x="0" y="23" width="1440" height="833" />
     </state>
     <state x="386" y="30" key="#regular/0.23.1440.833@0.23.1440.833" timestamp="1597836863492" />
-    <state width="1878" height="352" key="GridCell.Tab.0.bottom" timestamp="1603356523174">
+    <state width="1878" height="276" key="GridCell.Tab.0.bottom" timestamp="1603422945076">
       <screen x="1440" y="23" width="1920" height="1177" />
     </state>
-    <state width="1878" height="352" key="GridCell.Tab.0.bottom/0.23.1440.825/1440.23.1920.1177@1440.23.1920.1177" timestamp="1603356523174" />
+    <state width="1878" height="276" key="GridCell.Tab.0.bottom/0.23.1440.824/1440.23.1920.1177@1440.23.1920.1177" timestamp="1603422945076" />
+    <state width="1878" height="352" key="GridCell.Tab.0.bottom/0.23.1440.825/1440.23.1920.1177@1440.23.1920.1177" timestamp="1603357346208" />
     <state width="1878" height="338" key="GridCell.Tab.0.bottom/0.23.1440.827/1440.23.1920.1177@1440.23.1920.1177" timestamp="1602851838271" />
     <state width="1878" height="336" key="GridCell.Tab.0.bottom/0.23.1440.828/1440.23.1920.1177@1440.23.1920.1177" timestamp="1601805605557" />
     <state width="1878" height="162" key="GridCell.Tab.0.bottom/0.23.1440.829/1440.23.1920.1177@1440.23.1920.1177" timestamp="1602575702611" />
@@ -232,10 +233,11 @@
     <state width="1398" height="238" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1598019857458" />
     <state width="1878" height="336" key="GridCell.Tab.0.bottom/0.23.1440.832/1440.23.1920.1177@1440.23.1920.1177" timestamp="1602206890139" />
     <state width="1398" height="238" key="GridCell.Tab.0.bottom/0.23.1440.833@0.23.1440.833" timestamp="1598231725378" />
-    <state width="1878" height="352" key="GridCell.Tab.0.center" timestamp="1603356523173">
+    <state width="1878" height="276" key="GridCell.Tab.0.center" timestamp="1603422945075">
       <screen x="1440" y="23" width="1920" height="1177" />
     </state>
-    <state width="1878" height="352" key="GridCell.Tab.0.center/0.23.1440.825/1440.23.1920.1177@1440.23.1920.1177" timestamp="1603356523173" />
+    <state width="1878" height="276" key="GridCell.Tab.0.center/0.23.1440.824/1440.23.1920.1177@1440.23.1920.1177" timestamp="1603422945075" />
+    <state width="1878" height="352" key="GridCell.Tab.0.center/0.23.1440.825/1440.23.1920.1177@1440.23.1920.1177" timestamp="1603357346207" />
     <state width="1878" height="338" key="GridCell.Tab.0.center/0.23.1440.827/1440.23.1920.1177@1440.23.1920.1177" timestamp="1602851838270" />
     <state width="1878" height="336" key="GridCell.Tab.0.center/0.23.1440.828/1440.23.1920.1177@1440.23.1920.1177" timestamp="1601805605556" />
     <state width="1878" height="162" key="GridCell.Tab.0.center/0.23.1440.829/1440.23.1920.1177@1440.23.1920.1177" timestamp="1602575702610" />
@@ -245,10 +247,11 @@
     <state width="1398" height="238" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1598019857457" />
     <state width="1878" height="336" key="GridCell.Tab.0.center/0.23.1440.832/1440.23.1920.1177@1440.23.1920.1177" timestamp="1602206890139" />
     <state width="1398" height="238" key="GridCell.Tab.0.center/0.23.1440.833@0.23.1440.833" timestamp="1598231725377" />
-    <state width="1878" height="352" key="GridCell.Tab.0.left" timestamp="1603356523172">
+    <state width="1878" height="276" key="GridCell.Tab.0.left" timestamp="1603422945075">
       <screen x="1440" y="23" width="1920" height="1177" />
     </state>
-    <state width="1878" height="352" key="GridCell.Tab.0.left/0.23.1440.825/1440.23.1920.1177@1440.23.1920.1177" timestamp="1603356523172" />
+    <state width="1878" height="276" key="GridCell.Tab.0.left/0.23.1440.824/1440.23.1920.1177@1440.23.1920.1177" timestamp="1603422945075" />
+    <state width="1878" height="352" key="GridCell.Tab.0.left/0.23.1440.825/1440.23.1920.1177@1440.23.1920.1177" timestamp="1603357346206" />
     <state width="1878" height="338" key="GridCell.Tab.0.left/0.23.1440.827/1440.23.1920.1177@1440.23.1920.1177" timestamp="1602851838269" />
     <state width="1878" height="336" key="GridCell.Tab.0.left/0.23.1440.828/1440.23.1920.1177@1440.23.1920.1177" timestamp="1601805605555" />
     <state width="1878" height="162" key="GridCell.Tab.0.left/0.23.1440.829/1440.23.1920.1177@1440.23.1920.1177" timestamp="1602575702610" />
@@ -258,10 +261,11 @@
     <state width="1398" height="238" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1598019857457" />
     <state width="1878" height="336" key="GridCell.Tab.0.left/0.23.1440.832/1440.23.1920.1177@1440.23.1920.1177" timestamp="1602206890138" />
     <state width="1398" height="238" key="GridCell.Tab.0.left/0.23.1440.833@0.23.1440.833" timestamp="1598231725377" />
-    <state width="1878" height="352" key="GridCell.Tab.0.right" timestamp="1603356523173">
+    <state width="1878" height="276" key="GridCell.Tab.0.right" timestamp="1603422945076">
       <screen x="1440" y="23" width="1920" height="1177" />
     </state>
-    <state width="1878" height="352" key="GridCell.Tab.0.right/0.23.1440.825/1440.23.1920.1177@1440.23.1920.1177" timestamp="1603356523173" />
+    <state width="1878" height="276" key="GridCell.Tab.0.right/0.23.1440.824/1440.23.1920.1177@1440.23.1920.1177" timestamp="1603422945076" />
+    <state width="1878" height="352" key="GridCell.Tab.0.right/0.23.1440.825/1440.23.1920.1177@1440.23.1920.1177" timestamp="1603357346207" />
     <state width="1878" height="338" key="GridCell.Tab.0.right/0.23.1440.827/1440.23.1920.1177@1440.23.1920.1177" timestamp="1602851838270" />
     <state width="1878" height="336" key="GridCell.Tab.0.right/0.23.1440.828/1440.23.1920.1177@1440.23.1920.1177" timestamp="1601805605556" />
     <state width="1878" height="162" key="GridCell.Tab.0.right/0.23.1440.829/1440.23.1920.1177@1440.23.1920.1177" timestamp="1602575702611" />
@@ -367,7 +371,7 @@
     <SUITE FILE_PATH="coverage/Python_Learning_01$regular_third.coverage" NAME="regular_third Coverage Results" MODIFIED="1600170720367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/library/re" />
     <SUITE FILE_PATH="coverage/Python_Learning_01$numpy_program_one.coverage" NAME="numpy_program_one Coverage Results" MODIFIED="1602744024542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/numpy" />
     <SUITE FILE_PATH="coverage/Python_Learning_01$python_list_enumerate.coverage" NAME="python_list_enumerate Coverage Results" MODIFIED="1602567876232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lang/list" />
-    <SUITE FILE_PATH="coverage/Python_Learning_01$numpy_program_main.coverage" NAME="numpy_program_main Coverage Results" MODIFIED="1603356523164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/numpy" />
+    <SUITE FILE_PATH="coverage/Python_Learning_01$numpy_program_main.coverage" NAME="numpy_program_main Coverage Results" MODIFIED="1603357346199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/numpy" />
     <SUITE FILE_PATH="coverage/Python_Learning_01$define_func_exam01.coverage" NAME="define_func_exam01 Coverage Results" MODIFIED="1600078255941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lang/functions" />
     <SUITE FILE_PATH="coverage/Python_Learning_01$Linear_env_check.coverage" NAME="Linear-env-check Coverage Results" MODIFIED="1603160438486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linear-Algebra" />
     <SUITE FILE_PATH="coverage/Python_Learning_01$python_func_scop_five.coverage" NAME="python_func_scop_five Coverage Results" MODIFIED="1602227898168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lang/functions" />
@@ -415,6 +419,7 @@
     <SUITE FILE_PATH="coverage/Python_Learning_01$python_file_fourth.coverage" NAME="python_file_fourth Coverage Results" MODIFIED="1601466923699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/file" />
     <SUITE FILE_PATH="coverage/Python_Learning_01$python_flow_three.coverage" NAME="python_flow_three Coverage Results" MODIFIED="1601566517076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lang/flow" />
     <SUITE FILE_PATH="coverage/Python_Learning_01$regular_bound.coverage" NAME="regular_bound Coverage Results" MODIFIED="1600175491664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/library/re" />
+    <SUITE FILE_PATH="coverage/Python_Learning_01$python_list_reference.coverage" NAME="python_list_reference Coverage Results" MODIFIED="1603422945068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lang/list" />
     <SUITE FILE_PATH="coverage/Python_Learning_01$python_tuple_one.coverage" NAME="python_tuple_one Coverage Results" MODIFIED="1602575702602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lang/tuple" />
     <SUITE FILE_PATH="coverage/Python_Learning_01$regular_six.coverage" NAME="regular_six Coverage Results" MODIFIED="1601178310028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/library/re" />
     <SUITE FILE_PATH="coverage/Python_Learning_01$string_lib_second.coverage" NAME="string_lib_second Coverage Results" MODIFIED="1600141251026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/library/text_process" />

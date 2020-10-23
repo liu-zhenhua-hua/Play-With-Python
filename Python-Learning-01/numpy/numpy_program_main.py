@@ -50,4 +50,8 @@ if __name__ == '__main__':
     print("{} * {} = {}".format(2,vectorFirst,2*vectorFirst))
 
     print("{} * {} = {}".format(vectorFirst,vectorSecond,vectorFirst * vectorSecond)) #这里的计算结果是没有数学意义的, 知识点bobo老师的向量点乘
-    print("{} * {} = {}".format(vectorFirst,vectorSecond,vectorFirst.dot(vectorSecond))) #使用dot完成 两个向量的点乘运算
+    print("{}.dot({}) = {}".format(vectorFirst,vectorSecond,vectorFirst.dot(vectorSecond))) #使用dot完成 两个向量的点乘运算
+
+    print(np.linalg.norm(vectorFirst)) #求向量的模
+    print(vectorFirst/np.linalg.norm(vectorFirst)) #向量的归一化,规范化,也就是单位向量
+    print(np.linalg.norm(vectorFirst/np.linalg.norm(vectorFirst)))
