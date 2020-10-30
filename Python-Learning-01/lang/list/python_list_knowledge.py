@@ -53,4 +53,13 @@ for index,item in enumerate(fourList):
     print('Index ' + str(index) + ' animal is ' + item)
 
 #==========================================================================
-print("=" * 90)
+# print("=" * 90)
+
+
+print('=============================== The List index, List slice ===============================')
+
+
+fiveList = ['Python','Oracle','IBM','Google','Facebook','LinkedIn']
+
+print('Index[0] ' + fiveList[0])
+print('Index[1] ' + fiveList[1])
