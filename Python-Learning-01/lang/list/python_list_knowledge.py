@@ -47,3 +47,10 @@ print("=" * 90)
 
 
 
+fourList = ['cat','bat','rat','elephant','python']
+
+for index,item in enumerate(fourList):
+    print('Index ' + str(index) + ' animal is ' + item)
+
+#==========================================================================
+print("=" * 90)
