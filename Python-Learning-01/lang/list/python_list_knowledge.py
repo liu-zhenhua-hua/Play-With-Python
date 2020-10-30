@@ -61,5 +61,7 @@ print('=============================== The List index, List slice ==============
 
 fiveList = ['Python','Oracle','IBM','Google','Facebook','LinkedIn']
 
-print('Index[0] ' + fiveList[0])
-print('Index[1] ' + fiveList[1])
+print('Index[0]  ' + fiveList[0])
+print('Index[1]  ' + fiveList[1])
+print('Index[:3] ' + str(fiveList[:3]))
+print('Index[-4:-1] ' + str(fiveList[-4:-1]))
