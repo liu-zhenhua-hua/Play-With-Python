@@ -1,5 +1,7 @@
 #!/User/tony/anaconda3/bin/python3
 
+import random
+import copy
 
 alist = []  # declare a new list
 alist.append('a')
@@ -65,3 +67,15 @@ print('Index[0]  ' + fiveList[0])
 print('Index[1]  ' + fiveList[1])
 print('Index[:3] ' + str(fiveList[:3]))
 print('Index[-4:-1] ' + str(fiveList[-4:-1]))
+
+
+#==========================================================================
+
+sixList = ['Python','Oracle','IBM','Google','Facebook','LinkedIn']
+
+print('Random List''s Element : ' + random.choice(sixList))
+
+
+print('before random.shuffle() ' + str(sixList))
+random.shuffle(sixList) #random.shuffle() method
+print('The random.shuffle() ' + str(sixList))
