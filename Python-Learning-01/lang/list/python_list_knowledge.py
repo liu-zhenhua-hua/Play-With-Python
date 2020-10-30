@@ -31,3 +31,19 @@ secondList = ['cat','bat','rat','elephant']
 print(secondList)
 secondList.clear()
 print(secondList)
+
+
+#===========================================================================
+print("=" * 90)
+
+thirdList = ['cat','bat','rat','elephant','python','Dell','Oracle','Linux']
+
+for item in range(len(thirdList)):
+    print(thirdList[item])
+
+#==========================================================================
+print("=" * 90)
+
+
+
+
