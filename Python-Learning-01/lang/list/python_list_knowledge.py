@@ -5,3 +5,7 @@ alist = []  # declare a new list
 alist.append('a')
 alist.append('b')
 alist.append('c')
+alist.append('d')
+
+
+print(alist)
