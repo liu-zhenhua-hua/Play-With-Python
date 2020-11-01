@@ -84,4 +84,4 @@ print('The random.shuffle() ' + str(sixList))
 #==========================================================================
 
 
-sevenList = []
+sevenList = ['cat','bat','rat','elephant']
