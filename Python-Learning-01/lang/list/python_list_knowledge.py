@@ -85,3 +85,5 @@ print('The random.shuffle() ' + str(sixList))
 
 
 sevenList = ['cat','bat','rat','elephant']
+
+print('The index of ''cat'' ' + str(sevenList.index('cat')))
