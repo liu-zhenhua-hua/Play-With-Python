@@ -87,3 +87,11 @@ print('The random.shuffle() ' + str(sixList))
 sevenList = ['cat','bat','rat','elephant']
 
 print('The index of ''cat'' ' + str(sevenList.index('cat')))
+
+
+#==========================================================================
+#clear the elements of Python List
+
+eightList = ['Python','Oracle','Linux','Ubuntu','Microsoft','Keyboard']
+
+print('Before clear all the elements : ' + str(eightList))
