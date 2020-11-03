@@ -104,3 +104,15 @@ print('After clear all the elements : ' + str(eightList))
 del eightList[:] #del one empty Python List
 
 
+#==========================================================================
+
+aNumber = 56
+bNumber = 78
+
+print('aNumber is : ' + str(aNumber))
+aNumber, bNumber = bNumber,aNumber
+
+print('aNumber is : ' + str(aNumber))
+
+
+
