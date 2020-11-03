@@ -123,3 +123,5 @@ aTupleFromList = tuple(['ab','no','rm','al'])
 print('aTupleFromList is : ' + str(aTupleFromList))
 
 print(type(aTupleFromList))
+
+
