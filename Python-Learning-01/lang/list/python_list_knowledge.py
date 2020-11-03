@@ -95,3 +95,12 @@ print('The index of ''cat'' ' + str(sevenList.index('cat')))
 eightList = ['Python','Oracle','Linux','Ubuntu','Microsoft','Keyboard']
 
 print('Before clear all the elements : ' + str(eightList))
+
+eightList.clear()
+
+print('After clear all the elements : ' + str(eightList))
+
+
+del eightList[:] #del one empty Python List
+
+
