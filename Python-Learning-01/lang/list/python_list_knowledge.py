@@ -115,4 +115,11 @@ aNumber, bNumber = bNumber,aNumber
 print('aNumber is : ' + str(aNumber))
 
 
+#==========================================================================
 
+
+aTupleFromList = tuple(['ab','no','rm','al'])
+
+print('aTupleFromList is : ' + str(aTupleFromList))
+
+print(type(aTupleFromList))
