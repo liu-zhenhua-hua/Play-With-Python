@@ -31,3 +31,18 @@ if (aListA == bListB):
     print('The Two List equals each other ')
 else:
     print('The Two List are not equal ')
+
+
+print('=' * 90)
+
+#==========================================================================
+
+cListC = ['cat','dog','rat']
+dListD = ['cat','dog','rat']
+
+if(cListC == dListD):
+    print('cListC equals dListD ')
+else:
+    print('cListC did not equal dListD ')
+
+#==========================================================================
