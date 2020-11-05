@@ -46,3 +46,17 @@ else:
     print('cListC did not equal dListD ')
 
 #==========================================================================
+
+'''
+compare the the Dictionary
+'''
+aDict = {1:'Python',2:'CentOS',3:'Oracle'}
+bDict = {1:'Python',3:'Oracle',2:'CentOS'}
+'''
+Two Dictionary are not ordered.
+They can't be sliced like lists
+'''
+if(aDict == bDict):
+    print('The Two Dictionary is same ')
+else:
+    print('The Two Dictionary is not same ')
