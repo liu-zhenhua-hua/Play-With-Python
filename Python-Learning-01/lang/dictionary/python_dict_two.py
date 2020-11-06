@@ -26,3 +26,12 @@ print('=' * 90)
 
 for i in spam.items():
     print(i)
+
+#=============================================================
+
+
+secondSpam = {'name':'Tony','Age':18,'Gender':'Male','Education':'Master'}
+
+
+for k,v in secondSpam.items():
+    print('Key: ' + k + 'Values : ' + str(v))
