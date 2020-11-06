@@ -16,4 +16,9 @@ if 'color' in spam.keys():
 if 'color' not in spam.keys():
     print('True')
 
+
+"""
+下面的方式用来,判断一个值是否是dictionary中的key
+"""
 print('color' in spam)
+print('Zophie' in spam)
