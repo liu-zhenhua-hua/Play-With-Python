@@ -15,3 +15,14 @@ spam = {'color':'red','age':43,'name':'Tick'}
 for v in spam.values():
     print(v)
 
+#=============================================================
+
+
+for k in spam.keys():
+    print(k)
+
+
+print('=' * 90)
+
+for i in spam.items():
+    print(i)
