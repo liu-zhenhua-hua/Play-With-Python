@@ -15,4 +15,5 @@ for character in message:
     count[character] = count[character] + 1
 
 pprint.pprint(count) #using pprint() method to  display items in Dictionary
+print(pprint.pformat(count.values()))
 
