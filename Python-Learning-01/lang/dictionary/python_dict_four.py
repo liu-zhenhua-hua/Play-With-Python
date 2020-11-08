@@ -16,3 +16,19 @@ if 'color' not in spamDict:
     spamDict['color'] = 'Black'
 
 print(spamDict)
+
+#============================================================================================
+
+print("=" * 90)
+
+"""
+The setdefault() method is a nice shortcut to ensure that a key exists.
+
+"""
+
+messge = 'It was a bright cold day in April, and the clocks were striking thirteen.'
+count = {}
+for character in messge:
+    count.setdefault(character,0)
+    count[character] = count[character] + 1
+print(count)
