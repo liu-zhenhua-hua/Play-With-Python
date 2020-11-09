@@ -11,3 +11,23 @@ print(spam)
 secondSpam = 'Let\'s learning Python\tProgramming Language'
 
 print(secondSpam)
+
+"""
+place r before the beginning quotation mark of a String
+to make it a raw String
+"""
+
+print(r'That is Carol\'s cat.') # 'That is Carol\'s cat.' will display
+
+"""
+Multiline Strings with Triple Quotes
+三个单引号或者双引号, 可以引用多行文本
+"""
+
+thirdSpam='''
+Multiline Strings with Triple Quotes
+Python is Programming Language.
+C++ is most useful Technical Skills
+'''
+
+print(thirdSpam)
