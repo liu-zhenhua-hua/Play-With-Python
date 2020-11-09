@@ -22,6 +22,7 @@ print(r'That is Carol\'s cat.') # 'That is Carol\'s cat.' will display
 """
 Multiline Strings with Triple Quotes
 三个单引号或者双引号, 可以引用多行文本
+这也是作为多行注释来用
 """
 
 thirdSpam='''
