@@ -19,3 +19,7 @@ print(secondMessage)
 thirdMessage = f'My name is {name}. Next year I will be {age+1}.'
 
 print(thirdMessage)
+
+
+fourthMessage = 'My name is {}. Next Year I will be {}'.format(name,age+1)
+print(fourthMessage)
