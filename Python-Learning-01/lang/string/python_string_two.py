@@ -23,3 +23,15 @@ print(thirdMessage)
 
 fourthMessage = 'My name is {}. Next Year I will be {}'.format(name,age+1)
 print(fourthMessage)
+
+"""
+upper(), lower(), isupper(), islower() Methods
+"""
+
+"""
+upper(), lower() string methods return a new string, 
+"""
+
+spamMessage = 'Hello,World'
+spamMessage = spamMessage.upper()
+print(spamMessage)
