@@ -11,3 +11,8 @@ else:
 #==============================================================
 
 print('hello'.upper())
+
+if (' '.isspace()):
+    print('We only have space ');
+else:
+    print('Sorry We don''t have space');
