@@ -6,3 +6,25 @@ while True:
     if age.isdecimal():
         break
     print('Please enter a number for your age. ')
+
+#=================================================================
+
+print('=' * 90)
+
+"""
+startswith()
+endswith()
+"""
+
+if 'Hello,world'.startswith('Hello'):
+    print('The Condition is True ')
+else:
+    print('The Condition is False ')
+
+#=================================================================
+
+"""
+join()
+split() 
+"""
+
