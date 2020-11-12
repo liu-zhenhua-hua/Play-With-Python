@@ -7,3 +7,7 @@ if spam.islower():
     print('True')
 else:
     print('False')
+
+#==============================================================
+
+print('hello'.upper())
