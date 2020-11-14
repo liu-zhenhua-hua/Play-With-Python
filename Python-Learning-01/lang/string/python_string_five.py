@@ -9,5 +9,12 @@ def formatStr(target,original):
         return target
 
 
+def processStr(originalStr):
+    if originalStr.isupper():
+        return
+    else:
+        print()
+
+
 if __name__ == '__main__':
     print(formatStr(',','Characters'))
