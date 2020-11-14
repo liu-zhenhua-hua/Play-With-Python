@@ -18,14 +18,16 @@ def processStr(originalStr):
 
 def processStrAgain(originalStr):
     if originalStr.isupper():
-        print()
+        print('The Whole String is Upper Format ')
     elif originalStr.islower():
-        print()
+        print('The Whole String is Lower Format ')
     else:
-        print()
+        print('No idea about it ')
 
 
 if __name__ == '__main__':
     print(formatStr(',','Characters'))
 
     processStr('ZEAL')
+
+    processStrAgain('98877')
