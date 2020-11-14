@@ -16,5 +16,16 @@ def processStr(originalStr):
         print('The String is not Upper format ')
 
 
+def processStrAgain(originalStr):
+    if originalStr.isupper():
+        print()
+    elif originalStr.islower():
+        print()
+    else:
+        print()
+
+
 if __name__ == '__main__':
     print(formatStr(',','Characters'))
+
+    processStr('ZEAL')
