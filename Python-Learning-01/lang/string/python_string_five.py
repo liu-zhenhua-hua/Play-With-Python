@@ -21,13 +21,24 @@ def processStrAgain(originalStr):
         print('The Whole String is Upper Format ')
     elif originalStr.islower():
         print('The Whole String is Lower Format ')
+    elif originalStr.isalnum(): #isalnum() Return True if the String consists only of letters and numbers and is not blank
+        print('The String only contain letters and numbers ')
     else:
         print('No idea about it ')
+
+
+def checkStralnum(originalStr):
+    if originalStr.isalnum():
+        print('The String only contain letters and numbers ')
+    else:
+        return
 
 
 if __name__ == '__main__':
     print(formatStr(',','Characters'))
 
-    processStr('ZEAL')
+    #processStr('ZEAL')
+    #processStrAgain('98877')
+    #processStrAgain('98798yiy8')
 
-    processStrAgain('98877')
+    checkStralnum(' ')
