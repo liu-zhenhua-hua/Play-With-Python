@@ -11,9 +11,9 @@ def formatStr(target,original):
 
 def processStr(originalStr):
     if originalStr.isupper():
-        return
+        print('The Whole String is Upper format ')
     else:
-        print()
+        print('The String is not Upper format ')
 
 
 if __name__ == '__main__':
