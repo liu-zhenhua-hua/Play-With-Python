@@ -34,6 +34,14 @@ def checkStralnum(originalStr):
         return
 
 
+def concateStr(originalStr):
+    """join(), split() method function """
+    abasicStr = '-Python '
+    if originalStr == '':
+        return
+    else:
+        return abasicStr.join(originalStr) # join(self, __iterable)
+
 if __name__ == '__main__':
     print(formatStr(',','Characters'))
 
@@ -42,3 +50,8 @@ if __name__ == '__main__':
     #processStrAgain('98798yiy8')
 
     checkStralnum(' ')
+
+    """
+        Testing concateStr(originalStr) method
+    """
+    print(concateStr('Algorithms'))
