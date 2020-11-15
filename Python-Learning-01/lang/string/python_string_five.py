@@ -56,6 +56,13 @@ def splitStr(originalStr,splitStr=''):
         return originalStr.split()
 
 
+def partitionStr(originalStr):
+    """
+    :param originalStr:
+    :return:
+    """
+    
+
 
 if __name__ == '__main__':
     print(formatStr(',','Characters'))
