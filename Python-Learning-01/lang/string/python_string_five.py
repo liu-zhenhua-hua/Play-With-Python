@@ -42,6 +42,21 @@ def concateStr(originalStr):
     else:
         return abasicStr.join(originalStr) # join(self, __iterable)
 
+
+def splitStr(originalStr,splitStr=''):
+    if originalStr == '':
+        return
+    elif splitStr.__contains__(','):
+        return originalStr.split(splitStr)
+    elif splitStr.__contains__('|'):
+        return originalStr.split(splitStr)
+    elif splitStr.__contains__(','):
+        return originalStr.split(splitStr)
+    else:
+        return originalStr.split()
+
+
+
 if __name__ == '__main__':
     print(formatStr(',','Characters'))
 
@@ -55,3 +70,9 @@ if __name__ == '__main__':
         Testing concateStr(originalStr) method
     """
     print(concateStr('Algorithms'))
+
+    print(splitStr('Python | Java | Linux | Oracle','|'))
+
+    print('=' * 90)
+
+    print(splitStr('Python Numpy Ski Cube Master'))
