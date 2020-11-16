@@ -59,9 +59,10 @@ def splitStr(originalStr,splitStr=''):
 def partitionStr(originalStr):
     """
     :param originalStr:
-    :return:
+    :return: a tuple of three substrings for 'before','separator','after' format data
     """
-    
+
+
 
 
 if __name__ == '__main__':

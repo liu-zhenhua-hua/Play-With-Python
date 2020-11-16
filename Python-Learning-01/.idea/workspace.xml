@@ -23,6 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09c80ce1-01ad-4fc3-9c57-bba588d577a5" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lang/string/python_string_five.py" beforeDir="false" afterPath="$PROJECT_DIR$/lang/string/python_string_five.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +59,7 @@
       <recent name="$PROJECT_DIR$/opencv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.python_string_five">
+  <component name="RunManager" selected="Python.python_string_six">
     <configuration name="python_string_five" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-Learning-01" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,7 +104,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="python_string_one" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="python_string_six" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-Learning-01" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,7 +117,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lang/string/python_string_one.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lang/string/python_string_six.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.python_string_six" />
         <item itemvalue="Python.python_string_five" />
         <item itemvalue="Python.python_string_four" />
         <item itemvalue="Python.python_string_three" />
         <item itemvalue="Python.python_string_two" />
-        <item itemvalue="Python.python_string_one" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +195,7 @@
       <workItem from="1598253901877" duration="33000" />
       <workItem from="1598255499935" duration="8000" />
       <workItem from="1599109234232" duration="239189000" />
-      <workItem from="1605269265461" duration="7970000" />
+      <workItem from="1605269265461" duration="8468000" />
     </task>
     <servers />
   </component>
