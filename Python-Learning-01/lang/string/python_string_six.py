@@ -10,11 +10,16 @@ def stripMethod(stripMessage):
 
 
 def rightStripMethod(stripMessage):
-    spam = stripMessage
+    spam = stripMessage.rstrip()
+    return spam
 
-
+def leftStripMethod(stripMessage):
+    spam = stripMessage.lstrip()
+    return spam
 
 if __name__ == '__main__':
     print(strJust(20))
     #print('  Hello World  ')
     #print(stripMethod('  Hello World  '))
+    print(rightStripMethod('   Hello   '))
+    print(leftStripMethod('   Hello   '))
