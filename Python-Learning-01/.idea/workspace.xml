@@ -23,8 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09c80ce1-01ad-4fc3-9c57-bba588d577a5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/library/re/python_regu_one.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lang/string/python_string_six.py" beforeDir="false" afterPath="$PROJECT_DIR$/lang/string/python_string_six.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +195,7 @@
       <workItem from="1598253901877" duration="33000" />
       <workItem from="1598255499935" duration="8000" />
       <workItem from="1599109234232" duration="239189000" />
-      <workItem from="1605269265461" duration="11178000" />
+      <workItem from="1605269265461" duration="11807000" />
     </task>
     <servers />
   </component>
