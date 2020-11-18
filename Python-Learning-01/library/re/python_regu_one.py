@@ -3,4 +3,7 @@
 import re
 
 phoneRegex = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d') #now phoneRegex contains Regex Object <class '_sre.SRE_Pattern'>
-print(type(phoneRegex))
+
+myResult = phoneRegex.search('My Number is 415-555-4243')
+
+print('Phone Number is : ' + myResult.group())
