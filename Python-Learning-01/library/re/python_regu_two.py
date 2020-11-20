@@ -3,3 +3,5 @@
 import re
 
 phoneNumberRegex = re.compile(r'(\d\d\d)-(\d\d\d-\d\d\d\d)')
+
+nameListRegex = re.compile(r'(\d\d\d)-(\d\d\d-\d\d\d\d)')
