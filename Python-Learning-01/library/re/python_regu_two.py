@@ -31,3 +31,28 @@ print(mainNumber)
 
 
 #===============================================================================================
+
+"""
+What do you do if you need to match a parenthesis in your text ?
+using escape character
+Let's see the example
+"""
+
+phoneNumRegex = re.compile(r'(\(\d\d\d\))')
+phNumResult = phoneNumRegex.search('My Phone Number : (456)')
+
+print(phNumResult.group(1)) #The output is (456)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
