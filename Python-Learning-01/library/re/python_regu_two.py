@@ -15,3 +15,4 @@ phoneResult = phoneNumberRegex.search('My Phone Number is 415-555-4343')
 
 print(phoneResult.group(1))
 print(phoneResult.group(2))
+print(phoneResult.group(0))
