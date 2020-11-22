@@ -16,7 +16,7 @@ print(batRegexResult.group(1))
 + -> at least once
 """
 
-patternRegexOne = re.compile(r'Bat(wo)?man') #zero instances or one instance of wo 
+patternRegexOne = re.compile(r'Bat(wo)?man') #zero instances or one instance of wo
 patternRegexTwo = re.compile(r'Bat(wowowowo)?man')
 patternOneResult = patternRegexOne.search('This is our Batman')
 print(patternOneResult.group())
@@ -24,3 +24,6 @@ patternOneResult = patternRegexOne.search('This is our Batwoman')
 print(patternOneResult.group())
 patternTwoResult = patternRegexTwo.search('This is our Batwowowowoman')
 print(patternTwoResult.group())
+
+#===============================================================================================
+
