@@ -48,6 +48,33 @@ print(phNumResult.group(1)) #The output is (456)
 
 print("=" * 90)
 
+"""
+using Matching Multiple groups with Pipe 
+The '|' character is called a pipe
+"""
+
+staffList = re.compile(r'Batman|Tina Fey')
+staffListResult = staffList.search('Batman and Tina Fey')
+print(staffListResult.group())
+
+"""
+use the pipe to match one of several patterns as part of your regex
+'Batman','Batmobile','Batcopter',and 'Batbat', Since all the strings start with Bat.
+"""
+
+pipeRegex = re.compile(r'Bat(man|mobile|copter|bat)')
+pipeResult = pipeRegex.search('Batmobile lost a wheel')
+print(pipeResult.group())
+
+
+
+
+
+
+
+
+
+
 
 
 

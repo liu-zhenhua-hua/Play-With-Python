@@ -24,6 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="09c80ce1-01ad-4fc3-9c57-bba588d577a5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/re/python_regu_two.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/re/python_regu_two.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +200,7 @@
       <workItem from="1605793650500" duration="457000" />
       <workItem from="1605885559617" duration="345000" />
       <workItem from="1605958606526" duration="4181000" />
-      <workItem from="1606025222136" duration="257000" />
+      <workItem from="1606025222136" duration="1097000" />
     </task>
     <servers />
   </component>
@@ -375,7 +376,7 @@
     <SUITE FILE_PATH="coverage/Python_Learning_01$python_func_exception_one.coverage" NAME="python_func_exception_one Coverage Results" MODIFIED="1602234149112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lang/functions" />
     <SUITE FILE_PATH="coverage/Python_Learning_01$FlowSecond.coverage" NAME="FlowSecond Coverage Results" MODIFIED="1599213712050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Learning_01$python_flow_import_one.coverage" NAME="python_flow_import_one Coverage Results" MODIFIED="1601623582516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lang/flow" />
-    <SUITE FILE_PATH="coverage/Python_Learning_01$python_regu_two.coverage" NAME="python_regu_two Coverage Results" MODIFIED="1605968285796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/library/re" />
+    <SUITE FILE_PATH="coverage/Python_Learning_01$python_regu_two.coverage" NAME="python_regu_two Coverage Results" MODIFIED="1606026369361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/library/re" />
     <SUITE FILE_PATH="coverage/Python_Learning_01$regular_fourth.coverage" NAME="regular_fourth Coverage Results" MODIFIED="1600171100059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/library/re" />
     <SUITE FILE_PATH="coverage/Python_Learning_01$SetFirst.coverage" NAME="SetFirst Coverage Results" MODIFIED="1599182728688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Learning_01$myRegular.coverage" NAME="myRegular Coverage Results" MODIFIED="1598019857449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
