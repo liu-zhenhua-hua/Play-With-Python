@@ -45,15 +45,22 @@ print("=" * 90)
 
 #===============================================================================================
 
+"""
+? Optional Matching.
+* Zero or More.
++ One or More
+"""
 
 third_search_text = """
 How I met your monther Session-1
 Batwoman, Jack-Li
+Jack-k-k-k-M
 """
-thirdRegex = re.compile(r'Bat(woo)?man')
+thirdRegex = re.compile(r'Bat(wo)?man') # ? Example
 thirdMatched = thirdRegex.search(third_search_text)
 
 if thirdMatched is None:
     print('We did not find any thing')
 else:
     print(thirdMatched.group())
+
