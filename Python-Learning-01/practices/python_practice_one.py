@@ -40,3 +40,20 @@ Phone Numbers List
 secondPhoneRegex = re.compile(r'\(\d\d\d\)-')
 secondMatchedPhone = secondPhoneRegex.search(sec_search_text)
 print(secondMatchedPhone.group())
+
+print("=" * 90)
+
+#===============================================================================================
+
+
+third_search_text = """
+How I met your monther Session-1
+Batwoman, Jack-Li
+"""
+thirdRegex = re.compile(r'Bat(woo)?man')
+thirdMatched = thirdRegex.search(third_search_text)
+
+if thirdMatched is None:
+    print('We did not find any thing')
+else:
+    print(thirdMatched.group())
