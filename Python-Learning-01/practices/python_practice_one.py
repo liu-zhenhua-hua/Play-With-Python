@@ -15,3 +15,13 @@ My Phone Numbers:
 
 phoneRegex = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d') #regex object return to phoneRegex
 
+phoneFetched = phoneRegex.finditer(search_text) #regexObject.finditer()
+
+"""
+iterate each items 
+"""
+for items in phoneFetched:
+    print(items.group())
+
+
+phoneNumberFetched = phoneRegex.search(search_text)
