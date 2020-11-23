@@ -86,3 +86,19 @@ if fourPlusMatched is None:
     print('Nothing Matched')
 else:
     print('The Four Plus Matched : ' + fourPlusMatched.group())
+
+
+print("=" * 90)
+
+#===============================================================================================
+
+"""
+for example +
+"""
+five_search_text = """
+The Adventures of Batwowowowoman
+"""
+
+fiveRegex = re.compile(r'Bat(wo)+man')
+fiveMatched = fiveRegex.search(five_search_text)
+print(fiveMatched.group())
