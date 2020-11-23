@@ -54,7 +54,6 @@ print("=" * 90)
 third_search_text = """
 How I met your monther Session-1
 Batwoman, Jack-Li
-Jack-k-k-k-M
 """
 thirdRegex = re.compile(r'Bat(wo)?man') # ? Example
 thirdMatched = thirdRegex.search(third_search_text)
@@ -64,3 +63,26 @@ if thirdMatched is None:
 else:
     print(thirdMatched.group())
 
+print("=" * 90)
+
+#===============================================================================================
+
+four_search_text = """
+The Adventures of Batwoman
+"""
+
+four_search_text_plus_example = """
+The Adventures of Batman
+"""
+
+fourRegex = re.compile(r'Bat(wo)+man')
+fourMatched = fourRegex.search(four_search_text)
+print('The Four Matched : ' + fourMatched.group())
+
+fourPlusRegex = re.compile(r'Bat(wo)+man')
+fourPlusMatched = fourPlusRegex.search(four_search_text_plus_example)
+
+if fourPlusMatched is None:
+    print('Nothing Matched')
+else:
+    print('The Four Plus Matched : ' + fourPlusMatched.group())
