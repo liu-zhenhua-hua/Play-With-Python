@@ -27,3 +27,9 @@ thirdSearchText = """HzHzHzHzHzHzHzHzHz""" #non-greedy model, also called lazy m
 thirdRegex = re.compile(r'(Hz){3,5}?') #non-gready model, also called Lazy mode
 thirdMatched = thirdRegex.search(thirdSearchText)
 print(thirdMatched.group())
+
+
+fourthSearchText = """This is Batwoman, Batman"""
+fourthRegex = re.compile(r'Bat(wo)?man')
+fourthMatched = fourthRegex.search(fourthSearchText)
+print(fourthMatched.group())
