@@ -34,4 +34,9 @@ Phone Numbers List
 345-789-3289
 897-900-5568
 808-111-9090
+(443)-770-4321
 """
+
+secondPhoneRegex = re.compile(r'\(\d\d\d\)-')
+secondMatchedPhone = secondPhoneRegex.search(sec_search_text)
+print(secondMatchedPhone.group())
