@@ -3,6 +3,4 @@
 
 import re
 
-firstSearchText = """
-
-"""
+firstSearchText = """RoboCop eats baby food. BABY FOOD."""
