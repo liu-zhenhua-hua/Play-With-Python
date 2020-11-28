@@ -24,7 +24,6 @@
   <component name="ChangeListManager">
     <list default="true" id="09c80ce1-01ad-4fc3-9c57-bba588d577a5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/python_practice_three.py" beforeDir="false" afterPath="$PROJECT_DIR$/practices/python_practice_three.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +204,8 @@
       <workItem from="1606219837422" duration="716000" />
       <workItem from="1606309075842" duration="1313000" />
       <workItem from="1606396172949" duration="975000" />
-      <workItem from="1606489819163" duration="19000" />
+      <workItem from="1606489819163" duration="207000" />
+      <workItem from="1606490050306" duration="4000" />
     </task>
     <servers />
   </component>
