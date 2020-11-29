@@ -42,3 +42,8 @@ print(fourResult)
 
 
 fiveSearchText = "My Ticket Number is Fourty Four"
+fiveRegex = re.compile(r'\d$')
+fiveResult = fiveRegex.findall(fiveSearchText)
+
+if len(fiveResult) == 0:
+    print("We got the Nothing")
