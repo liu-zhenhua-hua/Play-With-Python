@@ -47,3 +47,26 @@ fiveResult = fiveRegex.findall(fiveSearchText)
 
 if len(fiveResult) == 0:
     print("We got the Nothing")
+
+"""
+The r'^\d+$' regular expression string matches strings 
+that both begin and end with one or more numeric characters. 
+"""
+
+sixSearchText = "235358900"
+sixRegex = re.compile(r'^\d+$')
+sixResult = sixRegex.findall(sixSearchText)
+
+if len(sixResult) == 0:
+    print('We got Nothing')
+else:
+    print(sixResult)
+
+
+
+
+
+
+
+
+
