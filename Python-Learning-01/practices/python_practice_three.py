@@ -12,6 +12,7 @@ print(firstResult)
 Regular Expression
 """
 
-"""
-Python Data structure
-"""
+secondSearchText = "aeioDRmp"
+secondRegex = re.compile(r'[^aeiouAEIOU]')
+secondResult = secondRegex.findall(secondSearchText)
+print('The Second Result : ' + secondResult)
