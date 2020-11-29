@@ -108,3 +108,17 @@ nongreedyText = "<To serve man> for dinner.>"
 nongreedyRegex = re.compile(r'<.*?>')
 nongreedyResult = nongreedyRegex.search(nongreedyText)
 print(nongreedyResult.group())
+
+
+"""
+Matching newlines with the Dot Character
+re.DOTALL as second argument to re.compile(), will match all characters, 
+including the newline character.
+"""
+
+newLineText = "Serve the public trust. \n Protect the innocent." \
+        "Upload the law"
+newLineRegex = re.compile('.*',re.DOTALL) #re.DOTALL second argument for matching newline.
+newLineResult = newLineRegex.search(newLineText)
+
+print(newLineResult.group())
