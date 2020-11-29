@@ -15,4 +15,20 @@ Regular Expression
 secondSearchText = "aeioDRmp"
 secondRegex = re.compile(r'[^aeiouAEIOU]')
 secondResult = secondRegex.findall(secondSearchText)
-print('The Second Result : ' + secondResult)
+print(secondResult)
+
+
+"""
+Caret (^) Character and Dollar 
+^ at the start of a regex to indicate that a match must occur 
+at the beginning of the searched text.
+"""
+
+thirdSearchText = "Hello, Python Regular Expression"
+thirdRegex = re.compile(r'^Hello')
+thirdResult = thirdRegex.findall(thirdSearchText)
+
+if thirdResult == None:
+    print('We got Nothing')
+else:
+    print(thirdResult)
