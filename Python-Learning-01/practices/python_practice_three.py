@@ -54,11 +54,14 @@ that both begin and end with one or more numeric characters.
 """
 
 sixSearchText = "235358900"
+sixSearchTextWithinStr = "235678zxv8907"
+sixSearchTextWithSpace = "344540 998668"
 sixRegex = re.compile(r'^\d+$')
-sixResult = sixRegex.findall(sixSearchText)
-
+# sixResult = sixRegex.findall(sixSearchText)
+# sixResult = sixRegex.findall(sixSearchTextWithinStr)
+sixResult = sixRegex.findall(sixSearchTextWithSpace)
 if len(sixResult) == 0:
-    print('We got Nothing')
+    print('We got Nothing from Regex (r\'^\\d+\$\')')
 else:
     print(sixResult)
 
