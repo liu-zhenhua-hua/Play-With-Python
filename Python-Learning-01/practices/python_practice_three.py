@@ -22,6 +22,8 @@ print(secondResult)
 Caret (^) Character and Dollar 
 ^ at the start of a regex to indicate that a match must occur 
 at the beginning of the searched text.
+
+$ at the end of the regex to indicate the string must end with this regular expression
 """
 
 thirdSearchText = "Hello, Python Regular Expression"
@@ -32,3 +34,5 @@ if thirdResult == None:
     print('We got Nothing')
 else:
     print(thirdResult)
+
+fourSearchText = 
