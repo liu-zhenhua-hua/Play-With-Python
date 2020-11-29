@@ -66,10 +66,17 @@ else:
     print(sixResult)
 
 
+#=========================================================================================
 
+"""
+The . (or dot) character in a regular expression is called a wildcard will match any 
+Character except for a newline
+Remember that the dot character will match just one character.
+"""
 
+theDotSearchText = "The cat in the hat"
+theDotSearchRegex = re.compile(r'.at')
+theDotResult = theDotSearchRegex.findall(theDotSearchText)
 
-
-
-
-
+for elements in theDotResult:
+    print(elements)
