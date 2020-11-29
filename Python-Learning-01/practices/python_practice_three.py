@@ -3,6 +3,10 @@
 
 import re
 
+"""
+This program is very important - review it carefully and frequently
+"""
+
 firstSearchText = """RoboCop eats baby food. BABY FOOD."""
 firstRegex = re.compile(r'[aeiouAEIOU]')
 firstResult = firstRegex.findall(firstSearchText)
@@ -80,3 +84,27 @@ theDotResult = theDotSearchRegex.findall(theDotSearchText)
 
 for elements in theDotResult:
     print(elements)
+
+"""
+.*   ---> Programmer can use the dot-star to match everything
+Following is Example
+.* uses greedy mode: that means It will always try to match as much text as possible
+"""
+dotStarText = "First Name:AI Last Name:Sweigart"
+dotStarRegex = re.compile(r'First Name:(.*) Last Name:(.*)')
+dotStarResult = dotStarRegex.search(dotStarText)
+
+print(dotStarResult.group(1))
+print(dotStarResult.group(2))
+
+
+greedyText = "<To serve man> for dinner.>"
+greedyRegex = re.compile(r'<.*>')
+greedyResult = greedyRegex.search(greedyText)
+print(greedyResult.group())
+
+
+nongreedyText = "<To serve man> for dinner.>"
+nongreedyRegex = re.compile(r'<.*?>')
+nongreedyResult = nongreedyRegex.search(nongreedyText)
+print(nongreedyResult.group())
