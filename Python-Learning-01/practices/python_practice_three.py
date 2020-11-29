@@ -35,4 +35,10 @@ if thirdResult == None:
 else:
     print(thirdResult)
 
-fourSearchText = 
+fourSearchText = "My Ticket Number is 47"
+fourRegex = re.compile(r'\d$')
+fourResult = fourRegex.findall(fourSearchText)
+print(fourResult)
+
+
+fiveSearchText = "My Ticket Number is Fourty Four"
