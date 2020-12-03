@@ -24,5 +24,6 @@ import re
 
 """
 Python Regular Expression 
+Regular Expression match text with the exact casing you specify
 """
 
