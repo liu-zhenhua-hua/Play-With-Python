@@ -25,5 +25,15 @@ import re
 """
 Python Regular Expression 
 Regular Expression match text with the exact casing you specify
+
+the following regexes match completely different strings:
+
+>>> regex1 = re.compile('RoboCop')
+>>> regex2 = re.compile('ROBOCOP')
+>>> regex3 = re.compile('robOcop')
+>>> regex4 = re.compile('RobocOp')
 """
+
+
+
 
