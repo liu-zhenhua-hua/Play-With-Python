@@ -34,6 +34,22 @@ the following regexes match completely different strings:
 >>> regex4 = re.compile('RobocOp')
 """
 
+"""
+But sometimes you care only about matching the letters without worring whether
+they're uppercase or lowercase.
+"""
+
+robocop = re.compile(r'robocop',re.I) #re.I means re.IGNORECASE 
+
+
+
+
+
+
+
+
+
+
 
 
 
