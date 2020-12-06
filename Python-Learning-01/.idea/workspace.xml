@@ -23,6 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09c80ce1-01ad-4fc3-9c57-bba588d577a5" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practices/python_venv(mac_Linux)_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/practices/python_venv(mac_Linux)_config.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -207,7 +208,7 @@
       <workItem from="1606489819163" duration="207000" />
       <workItem from="1606490050306" duration="4000" />
       <workItem from="1606573769935" duration="377000" />
-      <workItem from="1606634438131" duration="12073000" />
+      <workItem from="1606634438131" duration="14116000" />
     </task>
     <servers />
   </component>
