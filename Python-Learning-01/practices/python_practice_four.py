@@ -39,7 +39,9 @@ But sometimes you care only about matching the letters without worring whether
 they're uppercase or lowercase.
 """
 
-robocop = re.compile(r'robocop',re.I) #re.I means re.IGNORECASE 
+robocop = re.compile(r'robocop',re.I) #re.I means re.IGNORECASE
+FirstResult = robocop.search('RoboCop is part man, part machine, all cop.').group()
+print(FirstResult)
 
 
 
