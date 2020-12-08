@@ -2,5 +2,5 @@
 
 import re
 
-mySearchText = ""
+mySearchText = "MKZL79868687LKM"
 firstRegex = re.compile(r'[A-Z0-9]+$')
