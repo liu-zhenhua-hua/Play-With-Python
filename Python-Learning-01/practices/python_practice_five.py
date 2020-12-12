@@ -8,4 +8,7 @@ firstResult = firstRegex.search(mySearchText)
 print(firstResult.group())
 
 
-mySecondSearch = ""
+mySecondSearch = "MMKmmk"
+secondRegex = re.compile(r'[mmk]+',re.I)
+secondResult = secondRegex.search(mySecondSearch)
+print(secondResult.group())
